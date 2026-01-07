@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "When developing a management information system, which of the following should be the first item to be considered?",
+    "options": [
+      "The cost of the hardware",
+      "The programming languages to be used",
+      "The purpose and objectives of the system",
+      "The brand of the database software"
+    ],
+    "answer": "The purpose and objectives of the system",
+    "explanation": "The purpose and objectives must be defined first as they guide all other decisions in system development."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which of the following is an example of data collection?",
+    "options": [
+      "Creating a pie chart from sales figures",
+      "Calculating the average score in a spreadsheet",
+      "Using a sensor to record room temperature",
+      "Sorting customer records by name"
+    ],
+    "answer": "Using a sensor to record room temperature",
+    "explanation": "Data collection involves gathering raw data from the environment, such as through sensors."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "A company plans to scan and store its paper documents as digital images. What is the major benefit of this digitization?",
+    "options": [
+      "It automatically corrects errors in the original documents",
+      "It allows for easier retrieval and viewing of documents",
+      "It reduces the need for computer storage space",
+      "It improves the quality of the original documents"
+    ],
+    "answer": "It allows for easier retrieval and viewing of documents",
+    "explanation": "Digitization primarily facilitates easier access, retrieval, and sharing of documents."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following processes is an example of data analysis?",
+    "options": [
+      "Distributing survey questionnaires to participants",
+      "Entering customer information into a database",
+      "Using software to identify shopping patterns from sales data",
+      "Printing reports for a meeting"
+    ],
+    "answer": "Using software to identify shopping patterns from sales data",
+    "explanation": "Data analysis involves examining data to draw conclusions, such as identifying patterns or trends."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "In a bus company's online route-finding service, what information should passengers input? (1) Starting point (2) Destination (3) Number of bus stops (4) Bus fare",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (4) only",
+      "(2) and (3) only",
+      "(1), (3) and (4) only"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "For finding routes, only the start and end points are essential inputs."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Convert the decimal number 13 to binary.",
+    "options": ["1010", "1101", "1110", "1001"],
+    "answer": "1101",
+    "explanation": "13 = 8 + 4 + 1, so binary is 1101."
+  },
+  {
+    "id": 2,
+    "type": "short",
+    "question": "Write the binary number 1011 in decimal.",
+    "answer": "11",
+    "explanation": "1×8 + 0×4 + 1×2 + 1×1 = 11."
+  }
+]

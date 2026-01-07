@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "What is a field in a database?",
+    "options": [
+      "A collection of records",
+      "A single piece of information about an entity",
+      "A complete set of information",
+      "A table structure"
+    ],
+    "answer": "A single piece of information about an entity",
+    "explanation": "A field is the smallest unit of data, representing one attribute of an entity (e.g., 'Name', 'Age', 'Email')."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which data structure organizes data in a hierarchical manner?",
+    "options": ["Flat file", "Tree structure", "Network structure", "Relational database"],
+    "answer": "Tree structure",
+    "explanation": "A tree structure organizes data hierarchically with parent-child relationships, like a file system or organizational chart."
+  },
+  {
+    "id": 3,
+    "type": "short",
+    "question": "What is a record in database terminology?",
+    "answer": "A collection of related fields",
+    "explanation": "A record (or row) is a complete set of information about one entity, containing multiple fields."
+  }
+]

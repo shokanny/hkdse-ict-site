@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "A software developer is creating a mobile app that will display text in English, Japanese, and Arabic. Which character encoding should be used to ensure all languages display correctly?",
+    "options": ["ASCII", "Big-5", "UTF-8", "GB2312"],
+    "answer": "UTF-8",
+    "explanation": "UTF-8 can represent all Unicode characters, covering English, Japanese, and Arabic scripts comprehensively."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which of the following statements about character encoding are correct? (1) ASCII can represent 256 different characters (2) Unicode supports characters from multiple writing systems (3) Big-5 code is primarily used for Simplified Chinese",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) only",
+      "(2) and (3) only"
+    ],
+    "answer": "(2) only",
+    "explanation": "ASCII represents 128 characters (not 256), Unicode supports multiple writing systems, and Big-5 is for Traditional Chinese (not Simplified)."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "The ASCII code for uppercase 'M' is 77 in decimal. What is the ASCII code for uppercase 'P' in hexadecimal?",
+    "options": ["4F", "50", "51", "52"],
+    "answer": "50",
+    "explanation": "'M' is 77, 'N' is 78, 'O' is 79, 'P' is 80 in decimal, which is 50 in hexadecimal."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A text file containing Thai script and English text should be saved using which character encoding?",
+    "options": [
+      "ASCII only",
+      "Big-5 code only",
+      "Unicode (UTF-8)",
+      "GB18030"
+    ],
+    "answer": "Unicode (UTF-8)",
+    "explanation": "Only Unicode (UTF-8) supports both Thai script and English characters effectively."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A website displays random symbols instead of Korean text. What is the most likely cause?",
+    "options": [
+      "The web server is too slow",
+      "The character encoding is set to ASCII",
+      "The monitor resolution is too low",
+      "The internet connection is unstable"
+    ],
+    "answer": "The character encoding is set to ASCII",
+    "explanation": "Incorrect character encoding (using ASCII instead of UTF-8) is the most common cause of text display problems with non-Latin scripts."
+  }
+]

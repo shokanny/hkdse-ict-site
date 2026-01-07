@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "A company is developing an AI-powered smartwatch that continuously monitors a user's heart rate and sends alerts in real-time if an anomaly is detected. Which of the following best describes the system's processing mode?",
+    "options": [
+      "Batch processing",
+      "Distributed processing",
+      "Real-time processing",
+      "Offline processing"
+    ],
+    "answer": "Real-time processing",
+    "explanation": "Real-time processing systems require immediate processing with no delay between input and output, which is critical for monitoring systems."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "John is building a gaming PC and wants to ensure smooth gameplay in high-resolution VR environments. Which hardware upgrade would be least beneficial for this purpose?",
+    "options": [
+      "Upgrading from a dual-core to an octa-core CPU",
+      "Increasing the size of the ROM",
+      "Installing a GPU with higher VRAM",
+      "Adding more RAM"
+    ],
+    "answer": "Increasing the size of the ROM",
+    "explanation": "ROM (Read-Only Memory) stores firmware and is not frequently accessed, making it the least important for gaming performance."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Which of the following is a key advantage of using a solid-state drive (SSD) over a hard disk drive (HDD) in a modern computer?",
+    "options": [
+      "Larger storage capacity for the same price",
+      "Faster data access speed",
+      "Higher durability against physical impacts",
+      "Longer lifespan in terms of read/write cycles"
+    ],
+    "answer": "Faster data access speed",
+    "explanation": "SSDs have faster data access speed due to no moving parts."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "In the fetch-decode-execute cycle, which component is responsible for holding the memory address of the next instruction to be fetched?",
+    "options": [
+      "Accumulator",
+      "Memory Data Register (MDR)",
+      "Program Counter (PC)",
+      "Arithmetic Logic Unit (ALU)"
+    ],
+    "answer": "Program Counter (PC)",
+    "explanation": "The Program Counter (PC) holds the address of the next instruction to be executed in the fetch cycle."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A school is setting up a computer lab with 30 thin clients connected to a central server. Which type of system does this best represent?",
+    "options": [
+      "Distributed processing system",
+      "Real-time system",
+      "Batch processing system",
+      "Standalone system"
+    ],
+    "answer": "Distributed processing system",
+    "explanation": "A system with multiple thin clients connected to a central server distributing tasks is a distributed processing system."
+  }
+]

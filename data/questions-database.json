@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "What is a primary key in a database?",
+    "options": [
+      "The first column in a table",
+      "A unique identifier for each record",
+      "The most important field",
+      "A foreign key reference"
+    ],
+    "answer": "A unique identifier for each record",
+    "explanation": "A primary key uniquely identifies each record in a table and cannot contain duplicate or null values."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "System Query Language",
+      "Standard Query Language"
+    ],
+    "answer": "Structured Query Language",
+    "explanation": "SQL (Structured Query Language) is the standard language for managing and querying relational databases."
+  },
+  {
+    "id": 3,
+    "type": "short",
+    "question": "What is normalization in database design?",
+    "answer": "The process of organizing data to reduce redundancy",
+    "explanation": "Normalization is the process of organizing database tables to minimize data redundancy and improve data integrity."
+  }
+]

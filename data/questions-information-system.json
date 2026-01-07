@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "What is the main purpose of an information system?",
+    "options": [
+      "To store data only",
+      "To process and manage information to support decision-making",
+      "To display information on screen",
+      "To connect to the internet"
+    ],
+    "answer": "To process and manage information to support decision-making",
+    "explanation": "An information system collects, processes, stores, and distributes information to support decision-making and control in an organization."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which component is NOT typically part of an information system?",
+    "options": ["Hardware", "Software", "Data", "Physical building"],
+    "answer": "Physical building",
+    "explanation": "While a building houses the system, it's not a core component. The main components are hardware, software, data, procedures, and people."
+  },
+  {
+    "id": 3,
+    "type": "short",
+    "question": "Name one type of information system used in organizations.",
+    "answer": "Management Information System",
+    "explanation": "Common types include MIS (Management Information System), DSS (Decision Support System), TPS (Transaction Processing System), and ESS (Executive Support System)."
+  }
+]

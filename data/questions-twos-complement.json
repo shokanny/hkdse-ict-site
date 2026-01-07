@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "What is the range of values that can be represented by an 8-bit two's complement system?",
+    "options": [
+      "-127 to +128",
+      "-128 to +127",
+      "0 to 255",
+      "-128 to +128"
+    ],
+    "answer": "-128 to +127",
+    "explanation": "The range for n-bit two's complement is -2^(n-1) to +(2^(n-1)-1)"
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which of the following 8-bit two's complement additions will result in an overflow error?",
+    "options": [
+      "0110 1100 + 0011 0101",
+      "1001 0110 + 1110 1011",
+      "0100 0011 + 0011 1100",
+      "1000 0001 + 1111 1110"
+    ],
+    "answer": "0100 0011 + 0011 1100",
+    "explanation": "This adds two positive numbers (67 + 60 = 127) which exceeds +127"
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "What is the decimal value of the 8-bit two's complement number 1110 1001?",
+    "options": ["-23", "-22", "233", "-103"],
+    "answer": "-23",
+    "explanation": "1110 1001 represents -23 in two's complement"
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "When adding two 8-bit two's complement numbers, an overflow error occurs when:",
+    "options": [
+      "The result is negative",
+      "The carry into the sign bit equals the carry out of the sign bit",
+      "The carry into the sign bit differs from the carry out of the sign bit",
+      "The result is zero"
+    ],
+    "answer": "The carry into the sign bit differs from the carry out of the sign bit",
+    "explanation": "Overflow occurs when carry into sign bit ≠ carry out of sign bit"
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Perform the following 8-bit two's complement addition: 0111 1111 + 0000 0001. What is the result?",
+    "options": [
+      "1000 0001",
+      "0111 1111",
+      "1000 0000",
+      "0000 0000"
+    ],
+    "answer": "1000 0000",
+    "explanation": "0111 1111 (+127) + 0000 0001 (+1) = +128, which causes overflow"
+  }
+]

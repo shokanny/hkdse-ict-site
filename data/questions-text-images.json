@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "How many bits are needed to represent one ASCII character?",
+    "options": ["4 bits", "7 bits", "8 bits", "16 bits"],
+    "answer": "8 bits",
+    "explanation": "Standard ASCII uses 7 bits (128 characters), but extended ASCII uses 8 bits (256 characters). Modern systems typically use 8 bits per character."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "What is the resolution of an image?",
+    "options": [
+      "The file size",
+      "The number of pixels (width × height)",
+      "The color depth",
+      "The compression ratio"
+    ],
+    "answer": "The number of pixels (width × height)",
+    "explanation": "Resolution refers to the total number of pixels in an image, typically expressed as width × height (e.g., 1920×1080)."
+  },
+  {
+    "id": 3,
+    "type": "short",
+    "question": "What does RGB stand for in image representation?",
+    "answer": "Red Green Blue",
+    "explanation": "RGB (Red, Green, Blue) is a color model where colors are created by combining different intensities of red, green, and blue light."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Which of the following are characteristics of the Information Age? (1) Information is widely distributed via the Internet. (2) Information can be accessed quickly by the public. (3) All information available online is verified and correct.",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "While information is widely and quickly accessible, not all of it is correct, making statement (3) false."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A key change brought about by the Information Age is:",
+    "options": [
+      "A reduced need for computer skills in most jobs.",
+      "The creation of new ICT-related professions.",
+      "A decrease in the amount of data generated daily.",
+      "Information becoming more expensive to access."
+    ],
+    "answer": "The creation of new ICT-related professions.",
+    "explanation": "The Information Age has created jobs like data scientists, web developers, and digital marketers."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Why is information literacy considered a crucial skill? (1) It allows individuals to identify misinformation. (2) It enables everyone to write complex computer programs. (3) It helps people assess the credibility of online sources.",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (3) only",
+    "explanation": "Information literacy helps people identify fake news and judge source credibility, but it does not mean everyone can program."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "The term \"digital divide\" refers to:",
+    "options": [
+      "The difference in quality between digital and analog signals.",
+      "The gap between those who have access to ICT and those who do not.",
+      "The separation of personal and work data on a computer.",
+      "The different versions of an operating system."
+    ],
+    "answer": "The gap between those who have access to ICT and those who do not.",
+    "explanation": "The digital divide is the social and economic inequality caused by unequal access to information and communication technology."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
+    "options": [
+      "An increase in the cost of long-distance communication.",
+      "More opportunities for online learning and self-education.",
+      "A decrease in the need for data storage capacity.",
+      "The standardization of all global languages."
+    ],
+    "answer": "More opportunities for online learning and self-education.",
+    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
+  }
+]

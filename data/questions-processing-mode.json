@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "A train station ticketing system allows passengers to buy tickets from multiple kiosks, with each transaction updating the central seat availability database instantly. Which mode of processing does this system use?",
+    "options": [
+      "Batch processing",
+      "Offline processing",
+      "Real-time processing",
+      "Distributed processing"
+    ],
+    "answer": "Real-time processing",
+    "explanation": "Real-time processing because seat availability must be updated instantly to prevent double booking."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A university processes student course enrollment forms once per day at 11:00 PM. All forms submitted during the day are stored and processed together. Which processing mode is being used?",
+    "options": [
+      "Batch processing",
+      "Interactive processing",
+      "Real-time processing",
+      "Online processing"
+    ],
+    "answer": "Batch processing",
+    "explanation": "Batch processing because forms are collected and processed together at a scheduled time."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "A weather forecasting system collects data from thousands of sensors worldwide, processes it using supercomputers, and generates a forecast every 6 hours. Which two processing modes are mainly involved?",
+    "options": [
+      "Real-time and interactive",
+      "Batch and distributed",
+      "Online and real-time",
+      "Interactive and batch"
+    ],
+    "answer": "Batch and distributed",
+    "explanation": "Batch (forecast generated periodically) and distributed (data collected from multiple locations)."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "In an online multiplayer game, players' actions must be reflected on all other players' screens immediately. Which processing mode is essential?",
+    "options": [
+      "Batch processing",
+      "Distributed processing",
+      "Real-time processing",
+      "Sequential processing"
+    ],
+    "answer": "Real-time processing",
+    "explanation": "Real-time processing is essential for immediate response in interactive applications like gaming."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A library uses a system where members can borrow and return books at different terminals, and each terminal updates the central database directly. Which of the following best describes this system? (1) Multi-user system (2) Real-time system (3) Batch processing system",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "It is a multi-user system (many members) and real-time system (immediate database update). It is not batch processing."
+  }
+]

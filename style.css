@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+}
+
+.header {
+  background: #2b6cb0;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+  margin-top: 12px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background: #2b6cb0;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #2c5282;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.button-group button {
+  margin-top: 0;
+  flex: 1;
+  min-width: 150px;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+
+#short-answer {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#short-answer:focus {
+  outline: none;
+  border-color: #2b6cb0;
+}
+
+#short-answer:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.feedback-correct {
+  color: green;
+  margin-top: 12px;
+}
+
+.feedback-wrong {
+  color: red;
+  margin-top: 12px;
+  font-weight: 500;
+  padding: 12px;
+  background-color: #ffe6e6;
+  border-radius: 4px;
+  border-left: 4px solid red;
+}
+
+.feedback-correct {
+  color: green;
+  margin-top: 12px;
+  font-weight: 500;
+  padding: 12px;
+  background-color: #e6ffe6;
+  border-radius: 4px;
+  border-left: 4px solid green;
+}

@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Mary creates a compressed file containing document files stored in several folders. She uploads the compressed file to cloud storage. What are the benefits of using a compressed file? (1) The folder structure can be maintained (2) The upload time is reduced (3) The files are automatically encrypted",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "Compression reduces file size and can preserve folder structure, but it does not automatically encrypt the files."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "The file sizes of the following original files are all 10 MB. After compressing them, which compressed file will likely have the smallest size?",
+    "options": [
+      "testA.txt (text document)",
+      "testB.bmp (bitmap image)",
+      "testC.jpg (already compressed JPEG image)",
+      "testD.mp3 (audio file)"
+    ],
+    "answer": "testA.txt (text document)",
+    "explanation": "Plain text usually has high redundancy and compresses much better than formats that are already compressed, such as JPEG or MP3."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Which of the following statements about lossless compression are correct? (1) The original data can be perfectly reconstructed (2) It typically achieves higher compression ratios than lossy compression (3) It is suitable for compressing program executable files",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (3) only",
+    "explanation": "Lossless compression allows perfect reconstruction of the original data and is suitable for executables, but lossy compression usually achieves higher compression ratios."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A photographer needs to send high-resolution images to a client via email. The email server has a 25 MB attachment limit. What should the photographer do?",
+    "options": [
+      "Reduce the image dimensions",
+      "Convert images from PNG to JPG format",
+      "Split the images into multiple emails",
+      "Use lossless compression on the images"
+    ],
+    "answer": "Convert images from PNG to JPG format",
+    "explanation": "Converting from a lossless format (PNG) to a lossy one (JPG) can significantly reduce file size while maintaining acceptable quality."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which of the following file types would benefit most from compression?",
+    "options": [
+      "Already compressed ZIP file",
+      "Uncompressed text document",
+      "MP4 video file",
+      "JPG image file"
+    ],
+    "answer": "Uncompressed text document",
+    "explanation": "Uncompressed text has lots of redundancy and compresses well; already compressed formats see little benefit and can even grow in size."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "What is the main advantage of using compressed files for internet downloads?",
+    "options": [
+      "Increased security against viruses",
+      "Reduced download time",
+      "Automatic file encryption",
+      "Improved file quality"
+    ],
+    "answer": "Reduced download time",
+    "explanation": "Smaller compressed files transfer faster over the network, reducing download time."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "A company needs to archive thousands of text documents. Which compression method should they use?",
+    "options": [
+      "Lossy compression to maximize space savings",
+      "Lossless compression to preserve all original data",
+      "No compression to maintain fast access",
+      "Encryption instead of compression for security"
+    ],
+    "answer": "Lossless compression to preserve all original data",
+    "explanation": "For archival purposes, it is important that the original data can be fully restored, so lossless compression is required."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which of the following statements about file compression are correct? (1) Compression reduces the number of bits needed to represent data (2) All file types can be compressed equally well (3) Compression can sometimes increase file size",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (3) only",
+    "explanation": "Compression reduces bits needed, but already compressed files may expand slightly due to compression overhead."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Why might a video streaming service use lossy compression for its content? (1) To reduce bandwidth requirements (2) To maintain perfect video quality (3) To allow faster streaming",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (3) only",
+    "explanation": "Lossy compression sacrifices some quality in order to reduce bandwidth usage and allow smoother, faster streaming."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "A student needs to submit multiple large image files for a design project. The submission system has a 50 MB limit. Which approach would be most effective?",
+    "options": [
+      "Convert images from BMP to PNG format",
+      "Use lossy compression on the images",
+      "Rename the files with shorter names",
+      "Split the submission into multiple parts"
+    ],
+    "answer": "Use lossy compression on the images",
+    "explanation": "Using lossy compression can significantly reduce image file sizes so that the total fits under the submission size limit."
+  }
+]
+

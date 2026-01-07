@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Which of the following is not a function of an operating system?",
+    "options": [
+      "Managing memory",
+      "Providing a user interface",
+      "Compiling high-level programs",
+      "Controlling peripheral devices"
+    ],
+    "answer": "Compiling high-level programs",
+    "explanation": "Compiling is done by a compiler, which is application or development software, not by the operating system itself."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which type of software enables the operating system to communicate with a specific hardware device?",
+    "options": [
+      "Application software",
+      "Utility software",
+      "Device driver",
+      "Compiler"
+    ],
+    "answer": "Device driver",
+    "explanation": "Device drivers are system software modules that translate OS commands into hardware-specific operations."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Why is it important to regularly update the operating system? (1) To fix security vulnerabilities (2) To improve system performance (3) To add new features",
+    "options": [
+      "(1) only",
+      "(1) and (2) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1), (2) and (3)",
+    "explanation": "OS updates commonly patch security flaws, improve stability or performance, and sometimes add new features."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following best describes the role of defragmentation software?",
+    "options": [
+      "It protects the computer from viruses.",
+      "It organizes files on a hard disk to improve access speed.",
+      "It compresses files to save storage space.",
+      "It creates backups of important files."
+    ],
+    "answer": "It organizes files on a hard disk to improve access speed.",
+    "explanation": "Defragmentation rearranges fragments of files so that they are stored contiguously, reducing seek time."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which of the following is an example of utility software?",
+    "options": [
+      "Word processor",
+      "Web browser",
+      "Disk cleanup tool",
+      "Video game"
+    ],
+    "answer": "Disk cleanup tool",
+    "explanation": "Disk cleanup tools are utilities that help manage storage space and improve performance."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "What is the main purpose of a file manager in an operating system?",
+    "options": [
+      "To edit text files",
+      "To organize, copy, move, and delete files and folders",
+      "To connect to the Internet",
+      "To scan for viruses"
+    ],
+    "answer": "To organize, copy, move, and delete files and folders",
+    "explanation": "The file manager provides a user interface for basic file operations."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which of the following tasks is typically performed by the operating system’s memory manager?",
+    "options": [
+      "Allocating RAM to running applications",
+      "Sending documents to the printer",
+      "Connecting to a Wi-Fi network",
+      "Formatting a hard disk"
+    ],
+    "answer": "Allocating RAM to running applications",
+    "explanation": "The memory manager assigns and tracks RAM usage among processes."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "A computer user installs a new printer. Which type of system software must be installed for the printer to work?",
+    "options": [
+      "Web browser",
+      "Spreadsheet software",
+      "Device driver",
+      "Antivirus software"
+    ],
+    "answer": "Device driver",
+    "explanation": "A printer driver is required so that the OS can communicate correctly with the new printer."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Which of the following is a function of the operating system’s user interface?",
+    "options": [
+      "Translating high-level code into machine code",
+      "Allowing users to interact with the computer through icons, menus, and windows",
+      "Managing network connections",
+      "Performing arithmetic calculations"
+    ],
+    "answer": "Allowing users to interact with the computer through icons, menus, and windows",
+    "explanation": "The user interface (e.g., GUI) lets users control the system using visual elements."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following best describes the difference between system software and application software?",
+    "options": [
+      "System software is used for creating documents, while application software manages hardware.",
+      "System software manages computer hardware and provides a platform for application software.",
+      "Application software is always free, while system software must be purchased.",
+      "System software includes games and office suites, while application software includes operating systems."
+    ],
+    "answer": "System software manages computer hardware and provides a platform for application software.",
+    "explanation": "The operating system and related system software control hardware resources and support application software."
+  }
+]
+

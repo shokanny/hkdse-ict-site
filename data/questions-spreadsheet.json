@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Given the following spreadsheet data: Product A has sales 1500 and 1800, Product B has sales 2200 and 2500, and Product C has sales 1200. What is the result of the formula =SUMIF(A2:A6, \"B\", B2:B6)?",
+    "options": [
+      "2200",
+      "2500",
+      "4700",
+      "9200"
+    ],
+    "answer": "4700",
+    "explanation": "SUMIF adds the sales in B2:B6 where the corresponding product in A2:A6 is \"B\", so 2200 + 2500 = 4700."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A teacher wants to analyze test scores to find students who scored above 80 in both Mathematics and English. Which spreadsheet feature should be used?",
+    "options": [
+      "Pivot table",
+      "Goal Seek",
+      "Advanced Filter",
+      "Data Validation"
+    ],
+    "answer": "Advanced Filter",
+    "explanation": "Advanced Filter can filter records that meet multiple criteria simultaneously, such as scores above 80 in two subjects."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "In a spreadsheet, cell E1 contains the formula =SUM(A1:D1). If this formula is copied to cell E2, what will the formula in E2 be?",
+    "options": [
+      "=SUM(A1:D1)",
+      "=SUM(A2:D2)",
+      "=SUM(B1:E1)",
+      "=SUM(A1:E1)"
+    ],
+    "answer": "=SUM(A2:D2)",
+    "explanation": "Relative references shift when copied; A1:D1 becomes A2:D2 when moved down one row."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following chart types is most appropriate for showing the proportion of sales contributed by different product categories?",
+    "options": [
+      "Line chart",
+      "Bar chart",
+      "Pie chart",
+      "Scatter plot"
+    ],
+    "answer": "Pie chart",
+    "explanation": "Pie charts are used to show how categories contribute to a whole as proportions or percentages."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A company wants to determine the maximum price they can charge for a product while maintaining a 25% profit margin, given fixed costs. Which spreadsheet tool should they use?",
+    "options": [
+      "Pivot Table",
+      "Goal Seek",
+      "Data Filter",
+      "Conditional Formatting"
+    ],
+    "answer": "Goal Seek",
+    "explanation": "Goal Seek finds the input value required to achieve a specified result in a formula, such as a target profit margin."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Given monthly sales data for Jan (10000), Feb (12000), Mar (15000), and Apr (11000), what formula would calculate the average sales for months with sales exceeding 11000?",
+    "options": [
+      "=AVERAGE(B2:B5)",
+      "=AVERAGEIF(B2:B5, \">11000\")",
+      "=SUMIF(B2:B5, \">11000\")/COUNT(B2:B5)",
+      "=AVERAGE(B2:B5)*0.25"
+    ],
+    "answer": "=AVERAGEIF(B2:B5, \">11000\")",
+    "explanation": "AVERAGEIF averages only those cells that meet the specified condition (> 11000)."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "A sales manager wants to highlight all cells in column B where sales exceed $10,000 with green color. Which feature should be used?",
+    "options": [
+      "Data Validation",
+      "Conditional Formatting",
+      "Cell Protection",
+      "Text Formatting"
+    ],
+    "answer": "Conditional Formatting",
+    "explanation": "Conditional formatting changes the appearance of cells automatically based on their values."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which formula would count how many students in column A (A2:A50) are in \"Class 5B\"?",
+    "options": [
+      "=COUNT(A2:A50, \"5B\")",
+      "=COUNTIF(A2:A50, \"Class 5B\")",
+      "=SUMIF(A2:A50, \"5B\")",
+      "=TOTAL(A2:A50, \"Class 5B\")"
+    ],
+    "answer": "=COUNTIF(A2:A50, \"Class 5B\")",
+    "explanation": "COUNTIF counts cells in a range that match a given condition, such as text equal to \"Class 5B\"."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "What is the primary purpose of using absolute cell references (e.g., $A$1) in spreadsheet formulas?",
+    "options": [
+      "To make the formula calculate faster",
+      "To keep a cell reference constant when copying formulas",
+      "To reference cells from another worksheet",
+      "To prevent other users from editing the cell"
+    ],
+    "answer": "To keep a cell reference constant when copying formulas",
+    "explanation": "Absolute references do not change when copied, which is useful for fixed values such as tax rates."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "A business owner wants to project future sales based on current growth trends. Which spreadsheet feature would be most helpful?",
+    "options": [
+      "Data sorting",
+      "Pivot table",
+      "Fill handle with series",
+      "Text-to-columns"
+    ],
+    "answer": "Fill handle with series",
+    "explanation": "The fill handle can extend numeric patterns or growth trends to project future values."
+  }
+]
+

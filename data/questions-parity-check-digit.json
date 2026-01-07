@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "A computer receives the data sequence 10110110 with the last bit as an odd parity bit. Which of the following statements is correct?",
+    "options": [
+      "The data is received correctly",
+      "The data has a single-bit error",
+      "The parity bit should be 0 for odd parity",
+      "The sequence has even number of 1's including parity bit"
+    ],
+    "answer": "The data is received correctly",
+    "explanation": "10110110 has five 1's, which is an odd number, satisfying the odd parity requirement."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A product code uses a check digit where the sum of all digits must be divisible by 9. Which of the following codes is valid?",
+    "options": [
+      "27322",
+      "27323",
+      "27324",
+      "27325"
+    ],
+    "answer": "27324",
+    "explanation": "2 + 7 + 3 + 2 + 4 = 18, and 18 is divisible by 9, so 27324 is valid."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "A system uses even parity for error detection. Which of the following 8-bit sequences (with parity bit as the last bit) contains an error?",
+    "options": [
+      "10101010",
+      "01100110",
+      "11001101",
+      "00110011"
+    ],
+    "answer": "11001101",
+    "explanation": "11001101 has five 1's, an odd number, which violates the even parity requirement."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "An ISBN uses a specific check digit algorithm. What is the main limitation of check digit systems?",
+    "options": [
+      "They can correct errors automatically",
+      "They can detect all types of transmission errors",
+      "They cannot detect errors where multiple digits are transposed",
+      "They increase data transmission speed"
+    ],
+    "answer": "They cannot detect errors where multiple digits are transposed",
+    "explanation": "Check digits detect many common errors but not all, especially some transposition errors where digits are swapped."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which of the following received 7-bit data sequences (with even parity) has an error?",
+    "options": [
+      "1010101",
+      "0110011",
+      "1100110",
+      "0011001"
+    ],
+    "answer": "0011001",
+    "explanation": "0011001 has three 1's, which is an odd number; for even parity the total number of 1's should be even."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A bank account number uses a check digit calculated by multiplying each digit by its position and summing the results modulo 10. For number 3456X, what should X be if (3×1 + 4×2 + 5×3 + 6×4 + X×5) mod 10 = 0?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "3×1 + 4×2 + 5×3 + 6×4 = 50, so 50 + 5X must end in 0. X = 4 makes 50 + 20 = 70, and 70 mod 10 = 0."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Three 8-bit sequences are received with odd parity. Which ones contain errors? Sequence 1: 10101011  Sequence 2: 01100110  Sequence 3: 11001100",
+    "options": [
+      "Sequence 1 only",
+      "Sequence 2 only",
+      "Sequence 1 and 3 only",
+      "Sequence 2 and 3 only"
+    ],
+    "answer": "Sequence 2 and 3 only",
+    "explanation": "Sequences 2 and 3 have an even number of 1's, which violates the requirement for odd parity."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "What is the primary purpose of using a parity bit in data transmission?",
+    "options": [
+      "To compress the data",
+      "To encrypt the data",
+      "To detect single-bit errors",
+      "To correct transmission errors"
+    ],
+    "answer": "To detect single-bit errors",
+    "explanation": "Parity bits provide simple error detection by checking whether the total number of 1's is even or odd."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "A customer ID 73482 uses a check digit where the sum of digits modulo 7 must equal 0. What check digit should be added?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "7"
+    ],
+    "answer": "4",
+    "explanation": "7 + 3 + 4 + 8 + 2 = 24 and 24 mod 7 = 3. Adding 4 gives 28, and 28 mod 7 = 0."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following statements about parity bits are correct? (1) Even parity means the total number of 1's including the parity bit is even (2) Parity bits can detect all multiple-bit errors (3) Parity bits add one extra bit to the original data",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (3) only",
+    "explanation": "Even parity requires an even number of 1's including the parity bit, and parity schemes add one extra bit; they cannot detect all multiple-bit errors."
+  }
+]
+

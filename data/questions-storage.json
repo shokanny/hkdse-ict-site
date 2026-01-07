@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Which of the following storage devices has no moving parts and is considered more durable for use in portable devices?",
+    "options": [
+      "Hard Disk Drive (HDD)",
+      "Magnetic Tape",
+      "Solid State Drive (SSD)",
+      "Optical Disc"
+    ],
+    "answer": "Solid State Drive (SSD)",
+    "explanation": "SSDs use flash memory with no moving parts, making them more shock-resistant and suitable for portable devices."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which type of storage access method does a hard disk drive use?",
+    "options": [
+      "Sequential access only",
+      "Random access only",
+      "Both sequential and random access",
+      "Direct access only"
+    ],
+    "answer": "Random access only",
+    "explanation": "HDDs support random (direct) access to any data block; magnetic tape is the medium that is primarily sequential."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "A company needs to store 100 video files, each 50 GB in size, without compression. How many 2 TB hard disks are required?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "Total size is 100 × 50 GB = 5000 GB (≈ 5 TB). Each 2 TB drive holds 2000 GB, so 3 drives provide 6000 GB, which is sufficient."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following storage devices is typically slowest in terms of data access speed?",
+    "options": [
+      "SSD",
+      "RAM",
+      "Magnetic Tape",
+      "Hard Disk Drive"
+    ],
+    "answer": "Magnetic Tape",
+    "explanation": "Magnetic tape is sequential access and much slower to access arbitrary data than SSDs, HDDs, or RAM."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Why might an operating system be installed on an SSD rather than an HDD in a modern computer?",
+    "options": [
+      "SSDs have higher storage capacity for the same price.",
+      "SSDs provide faster boot and program loading times.",
+      "SSDs are easier to upgrade.",
+      "SSDs are more compatible with older operating systems."
+    ],
+    "answer": "SSDs provide faster boot and program loading times.",
+    "explanation": "The main advantage is speed: OS and applications start and respond more quickly from an SSD."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Which of the following is a benefit of using cloud storage over local storage?",
+    "options": [
+      "Faster data access speed",
+      "No need for an internet connection",
+      "Access files from any device with internet",
+      "Higher physical security"
+    ],
+    "answer": "Access files from any device with internet",
+    "explanation": "Cloud storage allows remote access from multiple devices as long as an internet connection is available."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "What does RAID (Redundant Array of Independent Disks) primarily aim to improve?",
+    "options": [
+      "Monitor screen resolution",
+      "Data access speed and/or data reliability",
+      "CPU processing power",
+      "Internet bandwidth"
+    ],
+    "answer": "Data access speed and/or data reliability",
+    "explanation": "RAID configurations can provide redundancy for reliability, higher throughput, or both."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which of the following is an example of secondary storage?",
+    "options": [
+      "RAM",
+      "CPU Cache",
+      "USB Flash Drive",
+      "ROM"
+    ],
+    "answer": "USB Flash Drive",
+    "explanation": "USB flash drives are non-volatile storage devices used for long-term data storage, i.e. secondary storage."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "A user wants to back up 500 GB of family photos and videos for long-term storage. Which medium is most suitable for archival purposes?",
+    "options": [
+      "SSD",
+      "HDD",
+      "Magnetic Tape",
+      "RAM"
+    ],
+    "answer": "Magnetic Tape",
+    "explanation": "Magnetic tape offers low cost per GB and is suitable for long-term archival backups, though access is slow."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which storage technology is only suitable for sequential access?",
+    "options": [
+      "DVD-RW",
+      "SSD",
+      "Magnetic Tape",
+      "Hard Disk Drive"
+    ],
+    "answer": "Magnetic Tape",
+    "explanation": "Magnetic tape must be read in sequence; accessing arbitrary points requires winding through earlier data."
+  }
+]
+

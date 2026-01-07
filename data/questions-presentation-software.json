@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Which of the following are advantages of using web-based presentation tools compared to desktop presentation software? (1) Multiple users can collaborate simultaneously (2) No software installation required (3) Presentations are accessible from any device with internet",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1), (2) and (3)",
+    "explanation": "Web-based tools support collaboration, require no local installation, and can be accessed from any device with an internet connection."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A teacher wants to add verbal explanations to specific slides in a presentation. Which feature should be used?",
+    "options": [
+      "Slide transitions",
+      "Animation effects",
+      "Audio recording per slide",
+      "Video embedding"
+    ],
+    "answer": "Audio recording per slide",
+    "explanation": "Audio recording per slide allows the teacher to attach spoken narration to individual slides."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "When using Object Linking and Embedding (OLE) to insert a spreadsheet chart into a presentation, what is the main advantage of linking over embedding?",
+    "options": [
+      "Linked objects make the presentation file smaller",
+      "Linked objects can be edited directly in the presentation",
+      "Linked objects don't require the original application",
+      "Linked objects have better image quality"
+    ],
+    "answer": "Linked objects make the presentation file smaller",
+    "explanation": "Linking stores only a reference to the external file, keeping the presentation smaller and updating automatically when the source changes."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following statements about mail merge are correct? (1) A spreadsheet can be used as the data source (2) Merge fields are replaced with actual data during merging (3) The main document and data source must be in the same file",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "Mail merge can use external data sources such as spreadsheets, and merge fields are replaced with real data; the main document and data source can be separate files."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A company wants to create a self-running presentation for a trade show booth. Which feature is most important to set up?",
+    "options": [
+      "Slide timing",
+      "Hyperlinks",
+      "Speaker notes",
+      "Print handouts"
+    ],
+    "answer": "Slide timing",
+    "explanation": "Slide timing controls how long each slide appears before moving to the next, which is essential for a self-running presentation."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "What happens when a user clicks a hyperlink in a presentation that links to a PDF document?",
+    "options": [
+      "The presentation will close automatically",
+      "A PDF reader will open to display the document",
+      "The PDF will replace the current slide",
+      "The hyperlink will not work without internet"
+    ],
+    "answer": "A PDF reader will open to display the document",
+    "explanation": "Clicking a hyperlink to a PDF typically launches the system's default PDF viewer and opens the file."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which of the following is the best reason to save a presentation in PDF format instead of the software's native format?",
+    "options": [
+      "To allow editing of the content",
+      "To preserve the layout across different devices",
+      "To reduce the file size significantly",
+      "To add animation effects"
+    ],
+    "answer": "To preserve the layout across different devices",
+    "explanation": "PDF format is designed to preserve layout and appearance regardless of the viewing device or software."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "A sales team needs to create personalized proposal letters for 200 clients using client data stored in a database. Which software feature should they use?",
+    "options": [
+      "Pivot table",
+      "Mail merge",
+      "Conditional formatting",
+      "Data validation"
+    ],
+    "answer": "Mail merge",
+    "explanation": "Mail merge is specifically designed to generate many personalized documents from a data source."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "When creating a presentation with verbal narration, which file format would be most suitable for sharing online?",
+    "options": [
+      "PPT (PowerPoint format)",
+      "PDF (Portable Document Format)",
+      "MP4 (video format)",
+      "DOC (Word document format)"
+    ],
+    "answer": "MP4 (video format)",
+    "explanation": "Exporting the presentation as an MP4 video includes both visuals and narration in a widely supported online format."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following actions can be performed by clicking a hyperlink in a presentation? (1) Jump to a specific slide in the same presentation (2) Open a web page in a browser (3) Start a video playback",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1), (2) and (3)",
+    "explanation": "Hyperlinks in presentations can navigate within the file, open external resources such as web pages, and trigger media playback."
+  }
+]
+

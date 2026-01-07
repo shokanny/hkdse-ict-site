@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Which of the following is not an example of an input device?",
+    "options": [
+      "Barcode scanner",
+      "Touchscreen",
+      "Monitor",
+      "Microphone"
+    ],
+    "answer": "Monitor",
+    "explanation": "A monitor is an output device; the others are used to input data into the computer."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A fast-food restaurant chooses a thermal printer over a laser printer to print receipts. Which of the following is the main advantage of a thermal printer in this setting?",
+    "options": [
+      "Higher print quality",
+      "Quieter operation",
+      "Lower cost per page",
+      "Ability to print in color"
+    ],
+    "answer": "Quieter operation",
+    "explanation": "Thermal printers are typically quieter and fast, which is suitable for busy checkout environments."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Which of the following specifications is most important when choosing a scanner for digitizing color photographs?",
+    "options": [
+      "Scanning speed (pages per minute)",
+      "Network connectivity (Wi-Fi support)",
+      "Color depth (e.g., 24-bit or 48-bit)",
+      "Built-in memory"
+    ],
+    "answer": "Color depth (e.g., 24-bit or 48-bit)",
+    "explanation": "Higher color depth allows more accurate and detailed color representation in scanned images."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Why might a graphic designer choose a mouse over a touchpad when working with detailed images?",
+    "options": [
+      "A mouse is more portable.",
+      "A mouse typically offers higher precision and ergonomic control.",
+      "A touchpad uses more battery power.",
+      "A mouse is always wireless."
+    ],
+    "answer": "A mouse typically offers higher precision and ergonomic control.",
+    "explanation": "The precision and ergonomics of a mouse make it more suitable for detailed graphical work."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which of the following is a common feature of a modern home printer?",
+    "options": [
+      "Parallel port",
+      "802.11ac Wi-Fi support",
+      "Serial port",
+      "Dot-matrix printing"
+    ],
+    "answer": "802.11ac Wi-Fi support",
+    "explanation": "Modern home printers often support wireless networking using Wi-Fi standards such as 802.11ac."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A supermarket uses barcode scanners at checkout counters. Which type of input device is a barcode scanner?",
+    "options": [
+      "Pointing device",
+      "Optical input device",
+      "Audio input device",
+      "Biometric device"
+    ],
+    "answer": "Optical input device",
+    "explanation": "Barcode scanners use optical sensors to read printed barcodes."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which of the following is not a typical output device?",
+    "options": [
+      "Plotter",
+      "Speaker",
+      "Webcam",
+      "Projector"
+    ],
+    "answer": "Webcam",
+    "explanation": "A webcam is an input device that captures video; the others are output devices."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which connection type is most commonly used for connecting a keyboard to a modern desktop computer?",
+    "options": [
+      "Serial port",
+      "Parallel port",
+      "USB",
+      "VGA"
+    ],
+    "answer": "USB",
+    "explanation": "USB has become the standard wired interface for keyboards and many other peripherals."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "A company wants to purchase monitors for employees who work long hours with text and spreadsheets. Which monitor feature would be most beneficial for reducing eye strain?",
+    "options": [
+      "High refresh rate (144 Hz)",
+      "Anti-glare coating",
+      "4K resolution",
+      "Curved screen"
+    ],
+    "answer": "Anti-glare coating",
+    "explanation": "Anti-glare coatings reduce reflections and eye strain for office work involving text."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following devices is both an input and an output device?",
+    "options": [
+      "Printer",
+      "Touchscreen",
+      "Speaker",
+      "Scanner"
+    ],
+    "answer": "Touchscreen",
+    "explanation": "A touchscreen displays output like a monitor and also accepts input through touch."
+  }
+]
+

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "A computer is powered on and begins the boot process. Which type of memory is first accessed to load the initial startup instructions?",
+    "options": [
+      "RAM",
+      "Cache memory",
+      "SSD",
+      "ROM"
+    ],
+    "answer": "ROM",
+    "explanation": "The BIOS and initial startup code are stored in ROM, which is accessed first during boot."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Which of the following statements about RAM is correct?",
+    "options": [
+      "RAM is non-volatile and retains data when the computer is turned off.",
+      "RAM is used to store the operating system permanently.",
+      "Increasing RAM size can help a computer run more applications simultaneously.",
+      "RAM has a slower access speed than a hard disk drive."
+    ],
+    "answer": "Increasing RAM size can help a computer run more applications simultaneously.",
+    "explanation": "More RAM allows more programs and data to be kept in fast main memory, improving multitasking."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Why is ROM used to store the BIOS and not RAM?",
+    "options": [
+      "ROM is faster than RAM.",
+      "ROM can be easily modified by the user.",
+      "ROM is non-volatile and retains data without power.",
+      "ROM has a larger storage capacity than RAM."
+    ],
+    "answer": "ROM is non-volatile and retains data without power.",
+    "explanation": "BIOS must remain stored even when the computer is switched off, so it is stored in non-volatile ROM."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following types of memory has the fastest access time?",
+    "options": [
+      "Hard Disk Drive (HDD)",
+      "RAM",
+      "SSD",
+      "CPU Registers"
+    ],
+    "answer": "CPU Registers",
+    "explanation": "Registers are part of the CPU itself and are the fastest type of memory."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A computer with 4 GB of RAM is running slowly when multiple applications are open. Which of the following would most likely improve its performance?",
+    "options": [
+      "Replacing the HDD with an SSD",
+      "Installing more RAM",
+      "Upgrading the CPU",
+      "Adding a dedicated graphics card"
+    ],
+    "answer": "Installing more RAM",
+    "explanation": "Adding RAM reduces swapping to disk and allows more applications to run smoothly at the same time."
+  }
+]
+

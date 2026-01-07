@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "What are the advantages of using a drop-down menu for entering dates in an online form instead of a text box? (1) Prevents invalid dates like February 30th (2) Ensures consistent date format (3) Allows users to type any date they want",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "Drop-down menus prevent invalid dates and ensure a consistent format, but they restrict users to predefined options rather than allowing any date."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "An 8-bit code 10110110 is received with the last bit as an even parity bit. Which of the following received codes has an error?",
+    "options": [
+      "11001100",
+      "01100110",
+      "10101011",
+      "00110011"
+    ],
+    "answer": "10101011",
+    "explanation": "10101011 has five 1's, which is an odd number and violates the requirement for even parity including the parity bit."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "What is the purpose of asking users to enter their email address twice during online registration?",
+    "options": [
+      "Data validation",
+      "Data verification",
+      "Data compression",
+      "Data encryption"
+    ],
+    "answer": "Data verification",
+    "explanation": "Entering the same data twice and comparing the entries is a form of data verification to reduce keying errors."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A student ID number uses a check digit as the last digit. The validation method requires that the sum of all digits modulo 10 equals 0. Which of the following ID numbers is valid?",
+    "options": [
+      "56386",
+      "56387",
+      "56388",
+      "56389"
+    ],
+    "answer": "56388",
+    "explanation": "5 + 6 + 3 + 8 + 8 = 30, and 30 mod 10 = 0, so 56388 satisfies the check-digit rule."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which of the following is an example of data validation?",
+    "options": [
+      "Comparing two entries of password to ensure they match",
+      "Checking that an age value falls between 0 and 150",
+      "Asking users to re-enter their username",
+      "Sending a confirmation email to verify an account"
+    ],
+    "answer": "Checking that an age value falls between 0 and 150",
+    "explanation": "Validation checks whether data is reasonable and within acceptable ranges; comparing two entries is verification."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A computer receives three data sequences with even parity bits. Two sequences are corrupted: First: 0110 0110  Second: 1100 1011  Third: 1011 1100. Which sequences are corrupted?",
+    "options": [
+      "First and second",
+      "First and third",
+      "Second and third",
+      "All three"
+    ],
+    "answer": "Second and third",
+    "explanation": "The second and third sequences have an odd number of 1's, violating the even parity requirement."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "When creating an online banking password, which requirement represents data validation?",
+    "options": [
+      "Entering the password twice",
+      "The password must contain at least one number and one special character",
+      "Answering security questions if the password is forgotten",
+      "Receiving an SMS code to confirm the password change"
+    ],
+    "answer": "The password must contain at least one number and one special character",
+    "explanation": "This is a validation rule that checks whether the data entered meets specific format or complexity requirements."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which of the following statements about check digits is correct?",
+    "options": [
+      "Check digits can correct all transmission errors automatically",
+      "Check digits can detect some but not all types of errors",
+      "Check digits ensure data is encrypted during transmission",
+      "Check digits reduce the file size of transmitted data"
+    ],
+    "answer": "Check digits can detect some but not all types of errors",
+    "explanation": "Check digits detect many common errors such as single-digit errors but cannot catch all possible error patterns."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "A library system uses barcode scanners for book checkout. What is the main data control advantage of using scanners instead of manual entry?",
+    "options": [
+      "Reduces data storage requirements",
+      "Increases data transmission speed",
+      "Minimizes data entry errors",
+      "Enhances data encryption"
+    ],
+    "answer": "Minimizes data entry errors",
+    "explanation": "Barcode scanners reduce the chance of human keying errors, improving data accuracy."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following online form features helps prevent data entry errors? (1) Input masks for telephone numbers (2) Range checks for numerical values (3) Drop-down lists for limited options",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1), (2) and (3)",
+    "explanation": "All three are validation controls that restrict the format and range of data, reducing input errors."
+  }
+]
+

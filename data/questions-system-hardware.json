@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "In the fetch-decode-execute cycle, which component is responsible for holding the instruction that is currently being decoded?",
+    "options": [
+      "Program Counter (PC)",
+      "Memory Address Register (MAR)",
+      "Instruction Register (IR)",
+      "Accumulator"
+    ],
+    "answer": "Instruction Register (IR)",
+    "explanation": "The Instruction Register (IR) temporarily holds the current instruction being decoded and executed."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "A computer has a 64-bit CPU and 8 GB of RAM. What is the main advantage of a 64-bit CPU over a 32-bit CPU in this system?",
+    "options": [
+      "Higher clock speed",
+      "More CPU cores",
+      "Ability to address more memory",
+      "Lower power consumption"
+    ],
+    "answer": "Ability to address more memory",
+    "explanation": "A 64-bit CPU can address a much larger memory space than a 32-bit CPU, allowing more RAM to be used efficiently."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "Which of the following is not a function of the Control Unit (CU) in a CPU?",
+    "options": [
+      "Decoding instructions",
+      "Performing arithmetic calculations",
+      "Sending control signals to other components",
+      "Coordinating the fetch-decode-execute cycle"
+    ],
+    "answer": "Performing arithmetic calculations",
+    "explanation": "Arithmetic calculations are performed by the Arithmetic Logic Unit (ALU), not the Control Unit."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A student upgrades the RAM in his computer from 4 GB to 16 GB. Which of the following tasks will benefit most from this upgrade?",
+    "options": [
+      "Browsing the web",
+      "Playing a high-end video game",
+      "Running multiple virtual machines simultaneously",
+      "Editing a text document"
+    ],
+    "answer": "Running multiple virtual machines simultaneously",
+    "explanation": "Running multiple virtual machines requires large amounts of RAM; increasing RAM greatly improves this workload."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which type of memory is volatile and is used to store data that is currently being processed by the CPU?",
+    "options": [
+      "ROM",
+      "RAM",
+      "SSD",
+      "Hard disk"
+    ],
+    "answer": "RAM",
+    "explanation": "RAM is volatile main memory used to store programs and data currently in use."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "The clock speed of a CPU is 3.2 GHz. What does this mean?",
+    "options": [
+      "The CPU can execute 3.2 billion instructions per second",
+      "The CPU performs 3.2 billion clock cycles per second",
+      "The CPU transfers 3.2 GB of data per second",
+      "The CPU’s cache memory operates at 3.2 GHz"
+    ],
+    "answer": "The CPU performs 3.2 billion clock cycles per second",
+    "explanation": "Clock speed measures the number of clock cycles per second; not every cycle equates to a full instruction."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which of the following components has the fastest data access speed?",
+    "options": [
+      "CPU registers",
+      "Cache memory",
+      "RAM",
+      "SSD"
+    ],
+    "answer": "CPU registers",
+    "explanation": "Registers are inside the CPU and are the fastest storage locations, faster than cache and RAM."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "What is the main purpose of cache memory in a CPU?",
+    "options": [
+      "To store the operating system",
+      "To store frequently used data for quick access",
+      "To increase the total storage capacity of the computer",
+      "To act as backup memory in case of power failure"
+    ],
+    "answer": "To store frequently used data for quick access",
+    "explanation": "Cache holds recently or frequently accessed data and instructions to reduce access time compared to RAM."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "In a CPU, which component performs arithmetic and logical operations?",
+    "options": [
+      "Control Unit (CU)",
+      "Arithmetic Logic Unit (ALU)",
+      "Registers",
+      "Cache"
+    ],
+    "answer": "Arithmetic Logic Unit (ALU)",
+    "explanation": "The ALU is responsible for arithmetic and logic operations such as addition and comparisons."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following is an example of secondary storage?",
+    "options": [
+      "RAM",
+      "Hard disk drive (HDD)",
+      "CPU cache",
+      "ROM"
+    ],
+    "answer": "Hard disk drive (HDD)",
+    "explanation": "HDDs are non-volatile secondary storage, while RAM and cache are primary storage."
+  },
+  {
+    "id": 11,
+    "type": "mc",
+    "question": "A quad-core CPU is generally better than a dual-core CPU because:",
+    "options": [
+      "Each core has a higher clock speed",
+      "It can execute more instructions simultaneously",
+      "It uses less power",
+      "It has more cache memory"
+    ],
+    "answer": "It can execute more instructions simultaneously",
+    "explanation": "More cores allow more tasks or threads to run in parallel, improving multitasking and throughput."
+  },
+  {
+    "id": 12,
+    "type": "mc",
+    "question": "Which of the following best describes the function of the system bus?",
+    "options": [
+      "It transfers data between the CPU, memory, and I/O devices",
+      "It stores the BIOS settings",
+      "It controls the power supply to the motherboard",
+      "It provides wireless connectivity"
+    ],
+    "answer": "It transfers data between the CPU, memory, and I/O devices",
+    "explanation": "The system bus is the main communication pathway that carries data and control signals among major components."
+  },
+  {
+    "id": 13,
+    "type": "mc",
+    "question": "What is the role of the Memory Address Register (MAR) in the fetch cycle?",
+    "options": [
+      "It holds the data to be written to memory",
+      "It decodes the instruction",
+      "It holds the address of the memory location to be accessed",
+      "It stores the result of arithmetic operations"
+    ],
+    "answer": "It holds the address of the memory location to be accessed",
+    "explanation": "The MAR stores the address of the memory cell from which data will be read or to which data will be written."
+  },
+  {
+    "id": 14,
+    "type": "mc",
+    "question": "Which component is not typically part of the CPU?",
+    "options": [
+      "ALU",
+      "CU",
+      "Registers",
+      "RAM"
+    ],
+    "answer": "RAM",
+    "explanation": "RAM is main memory external to the CPU, while ALU, CU, and registers are internal CPU components."
+  },
+  {
+    "id": 15,
+    "type": "mc",
+    "question": "Why is ROM used to store the BIOS?",
+    "options": [
+      "Because it is faster than RAM",
+      "Because it is non-volatile and retains data when power is off",
+      "Because it can be easily upgraded by the user",
+      "Because it has a larger storage capacity than RAM"
+    ],
+    "answer": "Because it is non-volatile and retains data when power is off",
+    "explanation": "BIOS must be available at power-on, so it is stored in non-volatile ROM that keeps its contents without power."
+  },
+  {
+    "id": 16,
+    "type": "mc",
+    "question": "A computer has a 2 TB HDD and a 256 GB SSD. If the operating system is installed on the SSD, what is the most likely reason?",
+    "options": [
+      "The SSD is cheaper",
+      "The SSD has more storage space",
+      "The SSD provides faster boot and load times",
+      "The HDD is used only for backups"
+    ],
+    "answer": "The SSD provides faster boot and load times",
+    "explanation": "Installing the OS on an SSD improves boot and application loading speeds due to the SSD's faster access times."
+  },
+  {
+    "id": 17,
+    "type": "mc",
+    "question": "Which of the following statements about GPU is correct?",
+    "options": [
+      "It is only used for playing video games",
+      "It is specialized for rendering graphics and parallel processing",
+      "It replaces the CPU in modern computers",
+      "It is a type of secondary storage"
+    ],
+    "answer": "It is specialized for rendering graphics and parallel processing",
+    "explanation": "GPUs contain many cores optimized for graphics and highly parallel tasks such as AI and scientific computing."
+  },
+  {
+    "id": 18,
+    "type": "mc",
+    "question": "The motherboard does not:",
+    "options": [
+      "Provide connections for CPU, RAM, and storage devices",
+      "House the BIOS chip",
+      "Act as the main memory of the computer",
+      "Include expansion slots for add-on cards"
+    ],
+    "answer": "Act as the main memory of the computer",
+    "explanation": "The motherboard connects and holds components but is not itself the main memory; that role is served by RAM modules."
+  },
+  {
+    "id": 19,
+    "type": "mc",
+    "question": "Which of the following would most improve the performance of a computer used for video editing?",
+    "options": [
+      "Adding a larger HDD",
+      "Upgrading the monitor",
+      "Installing a more powerful GPU",
+      "Adding a DVD drive"
+    ],
+    "answer": "Installing a more powerful GPU",
+    "explanation": "Video editing and rendering are GPU-intensive tasks, so a stronger GPU gives the biggest performance gain."
+  },
+  {
+    "id": 20,
+    "type": "mc",
+    "question": "What does “dual-channel” refer to in RAM configuration?",
+    "options": [
+      "Using two different brands of RAM",
+      "Using RAM with two different speeds",
+      "Using two RAM modules to increase data transfer rate",
+      "Using both DDR4 and DDR3 RAM together"
+    ],
+    "answer": "Using two RAM modules to increase data transfer rate",
+    "explanation": "Dual-channel mode uses two identical RAM modules in paired slots to double the memory data bus width and throughput."
+  }
+]
+

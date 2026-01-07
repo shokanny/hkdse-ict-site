@@ -49,6 +49,19 @@ body {
   padding: 0 18px;
 }
 
+.hero-image {
+  margin-bottom: 24px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .card {
   background: rgba(255, 255, 255, 0.98);
   padding: 22px 22px 18px;

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HKDSE ICT Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>HKDSE ICT Practice</h1>
+    <p>Core A: Data Processing | Core B: Computer System</p>
+  </header>
+
+  <main class="container">
+    <!-- Core A Section -->
+    <section class="card">
+      <h2>Core A – Data Processing</h2>
+      <div class="button-group">
+        <button onclick="startTopic('information-age')">
+          Information Age
+        </button>
+        <button onclick="startTopic('data-processing')">
+          Data Processing
+        </button>
+        <button onclick="startTopic('number-system')">
+          Number System
+        </button>
+        <button onclick="startTopic('twos-complement')">
+          Two's Complement
+        </button>
+        <button onclick="startTopic('character-coding')">
+          Character Coding
+        </button>
+        <button onclick="startTopic('database')">
+          Database Management
+        </button>
+        <button onclick="startTopic('data-organisation')">
+          Data Organisation
+        </button>
+        <button onclick="startTopic('text-images')">
+          Text and Images
+        </button>
+      </div>
+    </section>
+
+    <!-- Core B Section -->
+    <section class="card">
+      <h2>Core B – Computer System</h2>
+      <div class="button-group">
+        <button onclick="startTopic('computer-system')">
+          Computer System
+        </button>
+        <button onclick="startTopic('processing-mode')">
+          Mode of Processing
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function startTopic(topicId) {
+      // go to quiz.html and tell it which topic to load
+      window.location.href = `quiz.html?topic=${topicId}`;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,769 @@
+﻿Topic: Computer System – Multiple Choice Questions
+1. A company is developing an AI-powered smartwatch that continuously monitors a user's heart rate and sends alerts in real-time if an anomaly is detected. Which of the following best describes the system's processing mode?
+A. Batch processing
+B. Distributed processing
+C. Real-time processing
+D. Offline processing
+2. John is building a gaming PC and wants to ensure smooth gameplay in high-resolution VR environments. Which hardware upgrade would be least beneficial for this purpose?
+A. Upgrading from a dual-core to an octa-core CPU
+B. Increasing the size of the ROM
+C. Installing a GPU with higher VRAM
+D. Adding more RAM
+3.        Which of the following is a key advantage of using a solid-state drive (SSD) over a hard disk drive (HDD) in a modern computer?
+A. Larger storage capacity for the same price
+B. Faster data access speed
+C. Higher durability against physical impacts
+D. Longer lifespan in terms of read/write cycles
+4. In the fetch-decode-execute cycle, which component is responsible for holding the memory address of the next instruction to be fetched?
+A. Accumulator
+B. Memory Data Register (MDR)
+C. Program Counter (PC)
+D. Arithmetic Logic Unit (ALU)
+5. A school is setting up a computer lab with 30 thin clients connected to a central server. Which type of system does this best represent?
+A. Distributed processing system
+B. Real-time system
+C. Batch processing system
+D. Standalone system
+________________
+
+
+6. Which of the following is not a typical function of an operating system?
+A. Memory management
+B. Process scheduling
+C. Compiling source code into executable programs
+D. Input/output device management
+7. Mary’s computer has 8 GB of RAM and a 256 GB SSD. She frequently runs multiple virtual machines for software testing. Which upgrade would most improve her system’s performance?
+A. Replacing the SSD with a larger HDD
+B. Adding more RAM
+C. Installing a faster optical drive
+D. Upgrading the monitor resolution
+8. Why are e-book readers (like Kindle) often preferred over tablet computers for reading?
+(1) Lower power consumption
+(2) Lighter weight
+(3) Higher computational power
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2), and (3)
+9. A driver program is essential for:
+A. Compiling software applications
+B. Enabling the OS to communicate with hardware devices
+C. Increasing internet bandwidth
+D. Protecting the system from viruses
+10. Which storage technology supports random access?
+(1) Magnetic tape
+(2) SSD
+(3) DVD-RW
+A. (1) only
+B. (2) only
+C. (2) and (3) only
+D. (1), (2), and (3)
+________________
+
+
+Mode of Processing – Multiple Choice Questions
+1. A train station ticketing system allows passengers to buy tickets from multiple kiosks, with each transaction updating the central seat availability database instantly. Which mode of processing does this system use?
+A. Batch processing
+B. Offline processing
+C. Real-time processing
+D. Distributed processing
+2. A university processes student course enrollment forms once per day at 11:00 PM. All forms submitted during the day are stored and processed together. Which processing mode is being used?
+A. Batch processing
+B. Interactive processing
+C. Real-time processing
+D. Online processing
+3. A weather forecasting system collects data from thousands of sensors worldwide, processes it using supercomputers, and generates a forecast every 6 hours. Which two processing modes are mainly involved?
+A. Real-time and interactive
+B. Batch and distributed
+C. Online and real-time
+D. Interactive and batch
+4. In an online multiplayer game, players’ actions must be reflected on all other players’ screens immediately. Which processing mode is essential?
+A. Batch processing
+B. Distributed processing
+C. Real-time processing
+D. Sequential processing
+5. A library uses a system where members can borrow and return books at different terminals, and each terminal updates the central database directly. Which of the following best describes this system?
+(1) Multi-user system
+(2) Real-time system
+(3) Batch processing system
+A. (1) and (2) only        B. (1) and (3) only
+C. (2) and (3) only        D. (1), (2), and (3)
+System Hardware and CPU Questions
+1. In the fetch-decode-execute cycle, which component is responsible for holding the instruction that is currently being decoded?
+A. Program Counter (PC)
+B. Memory Address Register (MAR)
+C. Instruction Register (IR)
+D. Accumulator
+2. A computer has a 64-bit CPU and 8 GB of RAM. What is the main advantage of a 64-bit CPU over a 32-bit CPU in this system?
+A. Higher clock speed
+B. More CPU cores
+C. Ability to address more memory
+D. Lower power consumption
+3. Which of the following is not a function of the Control Unit (CU) in a CPU?
+A. Decoding instructions
+B. Performing arithmetic calculations
+C. Sending control signals to other components
+D. Coordinating the fetch-decode-execute cycle
+4. A student upgrades the RAM in his computer from 4 GB to 16 GB. Which of the following tasks will benefit most from this upgrade?
+A. Browsing the web
+B. Playing a high-end video game
+C. Running multiple virtual machines simultaneously
+D. Editing a text document
+5. Which type of memory is volatile and is used to store data that is currently being processed by the CPU?
+A. ROM
+B. RAM
+C. SSD
+D. Hard disk
+6. The clock speed of a CPU is 3.2 GHz. What does this mean?
+A. The CPU can execute 3.2 billion instructions per second
+B. The CPU performs 3.2 billion clock cycles per second
+C. The CPU transfers 3.2 GB of data per second
+D. The CPU’s cache memory operates at 3.2 GHz
+________________
+
+
+7. Which of the following components has the fastest data access speed?
+A. CPU registers
+B. Cache memory
+C. RAM
+D. SSD
+8. What is the main purpose of cache memory in a CPU?
+A. To store the operating system
+B. To store frequently used data for quick access
+C. To increase the total storage capacity of the computer
+D. To act as backup memory in case of power failure
+9. In a CPU, which component performs arithmetic and logical operations?
+A. Control Unit (CU)
+B. Arithmetic Logic Unit (ALU)
+C. Registers
+D. Cache
+10. Which of the following is an example of secondary storage?
+A. RAM
+B. Hard disk drive (HDD)
+C. CPU cache
+D. ROM
+11. A quad-core CPU is generally better than a dual-core CPU because:
+A. Each core has a higher clock speed
+B. It can execute more instructions simultaneously
+C. It uses less power
+D. It has more cache memory
+12. Which of the following best describes the function of the system bus?
+A. It transfers data between the CPU, memory, and I/O devices
+B. It stores the BIOS settings
+C. It controls the power supply to the motherboard
+D. It provides wireless connectivity
+13. What is the role of the Memory Address Register (MAR) in the fetch cycle?
+A. It holds the data to be written to memory
+B. It decodes the instruction
+C. It holds the address of the memory location to be accessed
+D. It stores the result of arithmetic operations
+________________
+
+
+14. Which component is not typically part of the CPU?
+A. ALU
+B. CU
+C. Registers
+D. RAM
+15. Why is ROM used to store the BIOS?
+A. Because it is faster than RAM
+B. Because it is non-volatile and retains data when power is off
+C. Because it can be easily upgraded by the user
+D. Because it has a larger storage capacity than RAM
+16. A computer has a 2 TB HDD and a 256 GB SSD. If the operating system is installed on the SSD, what is the most likely reason?
+A. The SSD is cheaper
+B. The SSD has more storage space
+C. The SSD provides faster boot and load times
+D. The HDD is used only for backups
+17. Which of the following statements about GPU is correct?
+A. It is only used for playing video games
+B. It is specialized for rendering graphics and parallel processing
+C. It replaces the CPU in modern computers
+D. It is a type of secondary storage
+18. The motherboard does not:
+A. Provide connections for CPU, RAM, and storage devices
+B. House the BIOS chip
+C. Act as the main memory of the computer
+D. Include expansion slots for add-on cards
+19. Which of the following would most improve the performance of a computer used for video editing?
+A. Adding a larger HDD
+B. Upgrading the monitor
+C. Installing a more powerful GPU
+D. Adding a DVD drive
+20. What does “dual-channel” refer to in RAM configuration?
+A. Using two different brands of RAM
+B. Using RAM with two different speeds
+C. Using two RAM modules to increase data transfer rate
+D. Using both DDR4 and DDR3 RAM together
+Main Memory – Multiple Choice Questions
+1. A computer is powered on and begins the boot process. Which type of memory is first accessed to load the initial startup instructions?
+A. RAM
+B. Cache memory
+C. SSD
+D. ROM
+2. Which of the following statements about RAM is correct?
+A. RAM is non-volatile and retains data when the computer is turned off.
+B. RAM is used to store the operating system permanently.
+C. Increasing RAM size can help a computer run more applications simultaneously.
+D. RAM has a slower access speed than a hard disk drive.
+3. Why is ROM used to store the BIOS and not RAM?
+A. ROM is faster than RAM.
+B. ROM can be easily modified by the user.
+C. ROM is non-volatile and retains data without power.
+D. ROM has a larger storage capacity than RAM.
+4. Which of the following types of memory has the fastest access time?
+A. Hard Disk Drive (HDD)
+B. RAM
+C. SSD
+D. CPU Registers
+5. A computer with 4 GB of RAM is running slowly when multiple applications are open. Which of the following would most likely improve its performance?
+A. Replacing the HDD with an SSD
+B. Installing more RAM
+C. Upgrading the CPU
+D. Adding a dedicated graphics card
+________________
+
+
+I/O Devices – Multiple Choice Questions
+   1. Which of the following is not an example of an input device?
+A. Barcode scanner
+B. Touchscreen
+C. Monitor
+D. Microphone
+   2. A fast-food restaurant chooses a thermal printer over a laser printer to print receipts. Which of the following is the main advantage of a thermal printer in this setting?
+A. Higher print quality
+B. Quieter operation
+C. Lower cost per page
+D. Ability to print in color
+   3. Which of the following specifications is most important when choosing a scanner for digitizing color photographs?
+A. Scanning speed (pages per minute)
+B. Network connectivity (Wi-Fi support)
+C. Color depth (e.g., 24-bit or 48-bit)
+D. Built-in memory
+   4. Why might a graphic designer choose a mouse over a touchpad when working with detailed images?
+A. A mouse is more portable.
+B. A mouse typically offers higher precision and ergonomic control.
+C. A touchpad uses more battery power.
+D. A mouse is always wireless.
+   5. Which of the following is a common feature of a modern home printer?
+A. Parallel port
+B. 802.11ac Wi-Fi support
+C. Serial port
+D. Dot-matrix printing
+   6. A supermarket uses barcode scanners at checkout counters. Which type of input device is a barcode scanner?
+A. Pointing device
+B. Optical input device
+C. Audio input device
+D. Biometric device
+________________
+
+
+      7. Which of the following is not a typical output device?
+A. Plotter
+B. Speaker
+C. Webcam
+D. Projector
+      8. Which connection type is most commonly used for connecting a keyboard to a modern desktop computer?
+A. Serial port
+B. Parallel port
+C. USB
+D. VGA
+      9. A company wants to purchase monitors for employees who work long hours with text and spreadsheets. Which monitor feature would be most beneficial for reducing eye strain?
+A. High refresh rate (144 Hz)
+B. Anti-glare coating
+C. 4K resolution
+D. Curved screen
+      10. Which of the following devices is both an input and an output device?
+A. Printer
+B. Touchscreen
+C. Speaker
+D. Scanner
+________________
+
+
+System Software – Multiple Choice Questions
+         1. Which of the following is not a function of an operating system?
+A. Managing memory
+B. Providing a user interface
+C. Compiling high-level programs
+D. Controlling peripheral devices
+         2. Which type of software enables the operating system to communicate with a specific hardware device?
+A. Application software
+B. Utility software
+C. Device driver
+D. Compiler
+         3. Why is it important to regularly update the operating system?
+(1) To fix security vulnerabilities
+(2) To improve system performance
+(3) To add new features
+A. (1) only
+B. (1) and (2) only
+C. (2) and (3) only
+D. (1), (2), and (3)
+         4. Which of the following best describes the role of defragmentation software?
+A. It protects the computer from viruses.
+B. It organizes files on a hard disk to improve access speed.
+C. It compresses files to save storage space.
+D. It creates backups of important files.
+         5. Which of the following is an example of utility software?
+A. Word processor
+B. Web browser
+C. Disk cleanup tool
+D. Video game
+         6. What is the main purpose of a file manager in an operating system?
+A. To edit text files
+B. To organize, copy, move, and delete files and folders
+C. To connect to the Internet
+D. To scan for viruses
+________________
+
+
+            7. Which of the following tasks is typically performed by the operating system’s memory manager?
+A. Allocating RAM to running applications
+B. Sending documents to the printer
+C. Connecting to a Wi-Fi network
+D. Formatting a hard disk
+            8. A computer user installs a new printer. Which type of system software must be installed for the printer to work?
+A. Web browser
+B. Spreadsheet software
+C. Device driver
+D. Antivirus software
+            9. Which of the following is a function of the operating system’s user interface?
+A. Translating high-level code into machine code
+B. Allowing users to interact with the computer through icons, menus, and windows
+C. Managing network connections
+D. Performing arithmetic calculations
+            10. Which of the following best describes the difference between system software and application software?
+A. System software is used for creating documents, while application software manages hardware.
+B. System software manages computer hardware and provides a platform for application software.
+C. Application software is always free, while system software must be purchased.
+D. System software includes games and office suites, while application software includes operating systems.
+________________
+
+
+Storage – Multiple Choice Questions
+               1. Which of the following storage devices has no moving parts and is considered more durable for use in portable devices?
+A. Hard Disk Drive (HDD)
+B. Magnetic Tape
+C. Solid State Drive (SSD)
+D. Optical Disc
+               2. Which type of storage access method does a hard disk drive use?
+A. Sequential access only
+B. Random access only
+C. Both sequential and random access
+D. Direct access only
+               3. A company needs to store 100 video files, each 50 GB in size, without compression. How many 2 TB hard disks are required?
+A. 2
+B. 3
+C. 4
+D. 5
+               4. Which of the following storage devices is typically slowest in terms of data access speed?
+A. SSD
+B. RAM
+C. Magnetic Tape
+D. Hard Disk Drive
+               5. Why might an operating system be installed on an SSD rather than an HDD in a modern computer?
+A. SSDs have higher storage capacity for the same price.
+B. SSDs provide faster boot and program loading times.
+C. SSDs are easier to upgrade.
+D. SSDs are more compatible with older operating systems.
+               6. Which of the following is a benefit of using cloud storage over local storage?
+A. Faster data access speed
+B. No need for an internet connection
+C. Access files from any device with internet
+D. Higher physical security
+________________
+
+
+                  7. What does RAID (Redundant Array of Independent Disks) primarily aim to improve?
+A. Monitor screen resolution
+B. Data access speed and/or data reliability
+C. CPU processing power
+D. Internet bandwidth
+                  8. Which of the following is an example of secondary storage?
+A. RAM
+B. CPU Cache
+C. USB Flash Drive
+D. ROM
+                  9. A user wants to back up 500 GB of family photos and videos for long-term storage. Which medium is most suitable for archival purposes?
+A. SSD
+B. HDD
+C. Magnetic Tape
+D. RAM
+                  10. Which storage technology is only suitable for sequential access?
+A. DVD-RW
+B. SSD
+C. Magnetic Tape
+D. Hard Disk Drive
+________________
+
+
+Short Answer Questions (4 Marks Each)
+________________
+
+
+Question 1: CPU & Memory
+John's computer has the following specifications:
+                     * CPU: Quad-core, 3.2 GHz
+                     * RAM: 8 GB DDR4
+                     * Storage: 512 GB SSD + 1 TB HDD
+(a) State two advantages of using an SSD instead of an HDD for installing the operating system. (2 marks)
+(b) Explain why increasing the RAM from 8 GB to 16 GB might improve system performance when running multiple applications. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Question 2: System Software & Drivers
+Mary connects a new USB webcam to her computer. The operating system automatically installs the necessary driver.
+(a) What is the function of a device driver? (2 marks)
+(b) Explain two reasons why the operating system might already have the driver for the webcam. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	________________
+
+
+Question 3: Storage & Access Methods
+A company uses magnetic tape for daily backup and SSDs for its database servers.
+(a) State one advantage and one disadvantage of using magnetic tape for backup. (2 marks)
+(b) Explain why SSDs are more suitable than HDDs for database servers that require fast data access. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Question 4: I/O Devices & Ergonomics
+4.        A supermarket uses barcode scanners and thermal printers at checkout counters.
+(a) Give two reasons why a thermal printer is suitable for printing receipts. (2 marks)
+(b) The cashier uses a handheld scanner. Suggest one ergonomic design feature of the scanner to reduce repetitive strain injury. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+________________
+Question 5: Processing Modes
+A weather station collects data every hour and processes it at midnight to generate a daily report. A separate system monitors indoor temperature and adjusts air conditioning in real-time.
+(a) Identify the processing mode used by each system. (2 marks)
+(b) Explain why real-time processing is essential for the indoor temperature system. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Question 6: System Hardware & Performance
+Peter’s computer runs slowly when editing high-resolution videos. The computer has a dual-core CPU, 4 GB RAM, and a 1 TB HDD.
+(a) Suggest two hardware upgrades that would most improve video editing performance. (2 marks)
+(b) Justify your choices. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	________________
+Question 7: Software & Licensing
+A school purchases a site licence for an educational software package.
+(a) What does a site licence allow? (2 marks)
+(b) Give two advantages of using open-source software in schools instead of proprietary software. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Question 8: System Software & Utilities
+An office computer runs slowly. The IT staff uses disk cleanup and defragmentation tools.
+(a) Explain the purpose of disk defragmentation. (2 marks)
+(b) State two other utility programs that could improve system performance or security. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	________________
+Question 9: Health, Safety & Environment
+An office is replacing old CRT monitors with LED monitors.
+(a) State two health or environmental benefits of using LED monitors instead of CRT monitors. (2 marks)
+(b) Suggest two good ergonomic practices for computer users to prevent eye strain. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Question 10: System Integration
+A smart home system uses sensors, a central controller, and mobile apps for remote monitoring.
+(a) Identify one input device and one output device in this system. (2 marks)
+(b) Explain why a real-time operating system might be used in the central controller. (2 marks)
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+________________
+Answer Key for Computer System Questions
+1. C – Real-time processing systems require immediate processing with no delay between input and output, which is critical for autopilot systems.
+2. B – ROM (Read-Only Memory) stores firmware and is not frequently accessed by the user, making it the least important for multimedia performance compared to SSD, RAM, and CPU.
+3. B – Faster data access speed (due to no moving parts).
+4. C – The Program Counter (PC) holds the address of the next instruction to be executed in the fetch cycle.
+5. A – A system with multiple thin clients connected to a central server distributing tasks is a distributed processing system.
+6. C – Compiling source code is the role of a compiler, not the operating system.
+7. B – Running multiple virtual machines requires substantial RAM; adding more will prevent slowdowns due to memory swapping.
+8. A – E-book readers are designed for long battery life and portability, but they do not have higher computational power than tablets.
+9. B – A driver program acts as a translator between the OS and a hardware device.
+10. B – SSDs support random access, while magnetic tape is sequential-only. DVD-RW also supports random access, but the question asks for “only” supports random access, so only (2) is correct. If interpreted as “which of these support random access?”, then C would be correct, but based on past paper style, B is the intended answer.
+Answer Key with Brief Explanations
+1. C – Real-time processing because seat availability must be updated instantly to prevent double booking.
+2. A – Batch processing because forms are collected and processed together at a scheduled time.
+3. B – Batch (forecast generated periodically) and distributed (data collected from multiple locations).
+4. C – Real-time processing is essential for immediate response in interactive applications like gaming.
+5. A – It is a multi-user system (many members) and real-time system (immediate database update). It is not batch processing.
+
+
+System Hardware and CPU Answer Key
+                     1. C – The Instruction Register holds the instruction being decoded.
+                     2. C – A 64-bit CPU can address more than 4 GB of RAM, unlike a 32-bit CPU.
+                     3. B – The ALU performs calculations, not the CU.
+                     4. C – Running multiple VMs requires a large amount of RAM.
+                     5. B – RAM is volatile and used for active data.
+                     6. B – Clock speed refers to the number of cycles per second.
+                     7. A – Registers are the fastest, followed by cache, RAM, then SSD.
+                     8. B – Cache stores frequently accessed data to speed up CPU operations.
+                     9. B – The ALU handles arithmetic and logic operations.
+                     10. B – HDD is secondary storage; RAM and cache are primary.
+                     11. B – More cores allow more parallel execution of instructions.
+                     12. A – The system bus is the main data highway inside the computer.
+                     13. C – The MAR holds the memory address during fetch operations.
+                     14. D – RAM is separate from the CPU.
+                     15. B – ROM retains data without power, making it suitable for BIOS.
+                     16. C – SSDs are much faster than HDDs, improving system responsiveness.
+                     17. B – GPUs are optimized for graphics and parallel tasks.
+                     18. C – The motherboard connects components but is not main memory (RAM).
+                     19. C – Video editing benefits greatly from a powerful GPU for rendering.
+                     20. C – Dual-channel mode uses two RAM modules to double data throughput.
+Main Memory Answer Key:
+                     1. D. ROM
+                     2. C. Increasing RAM size can help a computer run more applications simultaneously.
+                     3. C. ROM is non-volatile and retains data without power.
+                     4. D. CPU Registers
+                     5. B. Installing more RAM
+I/O Devices – Answer Key
+                     1. C. Monitor
+                     2. B. Quieter operation
+                     3. C. Color depth (e.g., 24-bit or 48-bit)
+                     4. B. A mouse typically offers higher precision and ergonomic control.
+                     5. B. 802.11ac Wi-Fi support
+                     6. B. Optical input device
+                     7. C. Webcam
+                     8. C. USB
+                     9. B. Anti-glare coating
+                     10. B. Touchscreen
+System Software – Answer Key
+                     1. C. Compiling high-level programs
+                     2. C. Device driver
+                     3. D. (1), (2), and (3)
+                     4. B. It organizes files on a hard disk to improve access speed.
+                     5. C. Disk cleanup tool
+                     6. B. To organize, copy, move, and delete files and folders
+                     7. A. Allocating RAM to running applications
+                     8. C. Device driver
+                     9. B. Allowing users to interact with the computer through icons, menus, and windows
+                     10. B. System software manages computer hardware and provides a platform for application software.
+Storage – Answer Key
+                     1. C. Solid State Drive (SSD)
+                     2. B. Random access only
+                     3. B. 3
+                     4. C. Magnetic Tape
+                     5. B. SSDs provide faster boot and program loading times.
+                     6. C. Access files from any device with internet
+                     7. B. Data access speed and/or data reliability
+                     8. C. USB Flash Drive
+                     9. C. Magnetic Tape
+                     10. C. Magnetic Tape
+Short Answer Questions Marking Scheme
+________________
+
+
+Question 1: CPU & Memory
+(a) State two advantages of using an SSD instead of an HDD for installing the operating system. (2 marks)
+                     * Faster boot-up time / faster loading of system files (1)
+                     * More durable / no moving parts / less prone to physical damage (1)
+(Other acceptable: lower power consumption, quieter operation, faster file access)
+(b) Explain why increasing the RAM from 8 GB to 16 GB might improve system performance when running multiple applications. (2 marks)
+                        * More RAM allows more applications/data to be stored in memory (1)
+                        * Reduces reliance on slower virtual memory (page file) on the hard disk (1)
+(Better multitasking, less lag/swapping)
+________________
+
+
+Question 2: System Software & Drivers
+(a) What is the function of a device driver? (2 marks)
+                           * Acts as a translator between the OS and hardware (1)
+                           * Allows the OS to control/communicate with the hardware device (1)
+(b) Explain two reasons why the operating system might already have the driver for the webcam. (2 marks)
+                           * The driver is included in the OS installation files (built-in driver database) (1)
+                           * The webcam uses a standard/universal driver (e.g., USB Video Class) (1)
+(OR: The OS automatically downloads the driver via Windows Update)
+________________
+
+
+Question 3: Storage & Access Methods
+(a) State one advantage and one disadvantage of using magnetic tape for backup. (2 marks)
+                              * Advantage: Low cost per GB / high capacity / suitable for long-term archival (1)
+                              * Disadvantage: Slow access speed / sequential access only / not suitable for frequent retrieval (1)
+(b) Explain why SSDs are more suitable than HDDs for database servers that require fast data access. (2 marks)
+                              * SSDs have faster read/write speeds (1)
+                              * No moving parts, so lower latency / faster random access (1)
+________________
+
+
+Question 4: I/O Devices & Ergonomics
+(a) Give two reasons why a thermal printer is suitable for printing receipts. (2 marks)
+                              * Quiet operation (1)
+                              * Fast printing speed / low maintenance (1)
+(Other: no ink required, compact size)
+(b) Suggest one ergonomic design feature of the scanner to reduce repetitive strain injury. (2 marks)
+                                 * Lightweight design / comfortable grip (1)
+                                 * Wrist support / ergonomic shape / adjustable handle (1)
+(Accept any reasonable ergonomic feature)
+________________
+
+
+Question 5: Processing Modes
+(a) Identify the processing mode used by each system. (2 marks)
+                                    * Weather station: Batch processing (1)
+                                    * Indoor temperature system: Real-time processing (1)
+(b) Explain why real-time processing is essential for the indoor temperature system. (2 marks)
+                                    * Immediate response is needed to maintain comfortable temperature (1)
+                                    * Prevents delays that could affect system efficiency/user comfort (1)
+________________
+
+
+Question 6: System Hardware & Performance
+(a) Suggest two hardware upgrades that would most improve video editing performance. (2 marks)
+                                    * Upgrade RAM (e.g., to 16 GB or more) (1)
+                                    * Upgrade to a dedicated graphics card (GPU) (1)
+(Accept: replace HDD with SSD, upgrade to multi-core CPU)
+(b) Justify your choices. (2 marks)
+                                       * More RAM allows handling of large video files and multitasking (1)
+                                       * GPU accelerates video rendering/effects processing (1)
+________________
+
+
+Question 7: Software & Licensing
+(a) What does a site licence allow? (2 marks)
+                                       * Installation on all computers within a single site/organization (1)
+                                       * Often allows unlimited users at that location (1)
+(b) Give two advantages of using open-source software in schools instead of proprietary software. (2 marks)
+                                       * No licence cost / free to use (1)
+                                       * Can be modified/customized to suit educational needs (1)
+(Other: promotes learning of programming, no vendor lock-in)
+________________
+
+
+Question 8: System Software & Utilities
+(a) Explain the purpose of disk defragmentation. (2 marks)
+                                          * Reorganizes files on HDD to store them contiguously (1)
+                                          * Improves access speed by reducing read/write head movement (1)
+(b) State two other utility programs that could improve system performance or security. (2 marks)
+                                          * Antivirus software (1)
+                                          * Disk cleanup tool / system optimizer (1)
+(Accept: backup software, firewall, registry cleaner)
+________________
+
+
+Question 9: Health, Safety & Environment
+(a) State two health or environmental benefits of using LED monitors instead of CRT monitors. (2 marks)
+                                             * Lower power consumption (1)
+                                             * Less heat emission / smaller physical size / no harmful radiation (1)
+(Also: longer lifespan, less toxic materials)
+(b) Suggest two good ergonomic practices for computer users to prevent eye strain. (2 marks)
+                                                * Adjust screen brightness and contrast to comfortable levels (1)
+                                                * Follow the 20-20-20 rule (look away every 20 minutes) (1)
+(Also: proper lighting, screen at eye level, use anti-glare filter)
+________________
+
+
+Question 10: System Integration
+(a) Identify one input device and one output device in this system. (2 marks)
+                                                   * Input: Temperature sensor / motion sensor / smartphone app (1)
+                                                   * Output: Smart light bulb / speaker / smart thermostat (1)
+(b) Explain why a real-time operating system might be used in the central controller. (2 marks)
+                                                   * Ensures immediate response to sensor inputs (1)
+                                                   * Guarantees reliable and timely control of home devices (1)
+(Prevents delays in safety-critical tasks)

@@ -1,0 +1,1043 @@
+﻿Revision Exercise: Information Age
+1. Which of the following are characteristics of the Information Age?
+(1) Information is widely distributed via the Internet.
+(2) Information can be accessed quickly by the public.
+(3) All information available online is verified and correct.
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+2. A key change brought about by the Information Age is:
+A. A reduced need for computer skills in most jobs.
+B. The creation of new ICT-related professions.
+C. A decrease in the amount of data generated daily.
+D. Information becoming more expensive to access.
+3. Why is information literacy considered a crucial skill?
+(1) It allows individuals to identify misinformation.
+(2) It enables everyone to write complex computer programs.
+(3) It helps people assess the credibility of online sources.
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+4. The term "digital divide" refers to:
+A. The difference in quality between digital and analog signals.
+B. The gap between those who have access to ICT and those who do not.
+C. The separation of personal and work data on a computer.
+D. The different versions of an operating system.
+5. Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?
+A. An increase in the cost of long-distance communication.
+B. More opportunities for online learning and self-education.
+C. A decrease in the need for data storage capacity.
+D. The standardization of all global languages.
+________________
+
+
+6. What is a major ethical concern in the Information Age?
+A. The high cost of computer hardware.
+B. The protection of intellectual property and copyright.
+C. The speed of 4G mobile networks.
+D. The complexity of using word processing software.
+7. The project by the US Government to explore 'big data' is an example of:
+A. Using small, manageable datasets for analysis.
+B. The challenge and opportunity of processing huge volumes of data.
+C. Reducing the importance of database management systems.
+D. Storing all government data on paper for security.
+8. Which of the following statements about robots in the Information Age is correct?
+(1) They can perform repetitive tasks accurately.
+(2) They can replace human judgment in all scenarios.
+(3) They can take on jobs that are hazardous to humans.
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+9. What does the shift to a "knowledge-based society" emphasize?
+A. The value of physical manufacturing over information.
+B. The importance of creating and using information effectively.
+C. Relying solely on traditional libraries for research.
+D. Reducing the role of technology in daily life.
+10. The digitization of a library's archive primarily helps to:
+A. Guarantee the copyright of all materials.
+B. Destroy the original documents to save space.
+C. Make the content more widely accessible.
+D. Increase the borrowing fees for members.
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Data Processing
+1. When developing a management information system, which of the following should be the first item to be considered?
+A. The cost of the hardware
+B. The programming languages to be used
+C. The purpose and objectives of the system
+D. The brand of the database software
+2. Which of the following is an example of data collection?
+A. Creating a pie chart from sales figures
+B. Calculating the average score in a spreadsheet
+C. Using a sensor to record room temperature
+D. Sorting customer records by name
+3. A company plans to scan and store its paper documents as digital images. What is the major benefit of this digitization?
+A. It automatically corrects errors in the original documents
+B. It allows for easier retrieval and viewing of documents
+C. It reduces the need for computer storage space
+D. It improves the quality of the original documents
+4. Which of the following processes is an example of data analysis?
+A. Distributing survey questionnaires to participants
+B. Entering customer information into a database
+C. Using software to identify shopping patterns from sales data
+D. Printing reports for a meeting
+5. In a bus company's online route-finding service, what information should passengers input?
+(1) Starting point
+(2) Destination
+(3) Number of bus stops
+(4) Bus fare
+A. (1) and (2) only
+B. (1) and (4) only
+C. (2) and (3) only
+D. (1), (3) and (4) only
+6. Which of the following matches between information process and example is correct?
+A. Data collection - Validating questionnaires before input
+B. Data preparation - Creating a statistical chart
+C. Data processing - Sorting questionnaires for data entry
+D. Data organization - Designing an online questionnaire
+________________
+
+
+7. The weather information "Temperature: 25.8, UV index: 4, Air pollution: moderate" should be stored using which set of data types?
+[Temperature, UV index, Air pollution]
+A. String, Character, String
+B. Integer, Character, Boolean
+C. Real, Integer, String
+D. Real, String, Boolean
+8. What is the primary importance of data control in an information system?
+A. It speeds up data transmission between devices
+B. It ensures the accuracy and integrity of data throughout processing
+C. It reduces the cost of system maintenance
+D. It makes the user interface more attractive
+9. Which of the following activities involves converting analog data to digital data?
+A. Printing a text document
+B. Listening to music from a CD
+C. Speaking on a traditional landline telephone
+D. Scanning a printed photograph into a computer
+10. In an information system, which component does "FTP" represent?
+A. Personnel
+B. Software
+C. Data
+D. Networks
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Binary / Two's Complement
+1. What is the range of values that can be represented by an 8-bit two's complement system?
+A. -127 to +128
+B. -128 to +127
+C. 0 to 255
+D. -128 to +128
+
+2. Which of the following 8-bit two's complement additions will result in an overflow error?
+A. 0110 1100 + 0011 0101
+B. 1001 0110 + 1110 1011
+C. 0100 0011 + 0011 1100
+D. 1000 0001 + 1111 1110
+
+3. What is the decimal value of the 8-bit two's complement number 1110 1001?
+A. -23
+B. -22
+C. 233
+D. -103
+
+4. Which of the following is the correct 8-bit two's complement representation of the decimal number -45?
+A. 1101 0011
+B. 1101 0010
+C. 1010 1101
+D. 1010 1100
+
+5. When adding two 8-bit two's complement numbers, an overflow error occurs when:
+A. The result is negative
+B. The carry into the sign bit equals the carry out of the sign bit
+C. The carry into the sign bit differs from the carry out of the sign bit
+D. The result is zero
+
+________________
+
+
+6. Perform the following 8-bit two's complement addition: 0111 1111 + 0000 0001. What is the result?
+A. 1000 0001
+B. 0111 1111 
+C. 1000 0000
+D. 0000 0000
+
+7. Which of the following 4-bit two's complement numbers has the largest value?
+A. 0111
+B. 1000
+C. 1111
+D. 0001
+
+8. What is the result of incrementing the 8-bit two's complement number 1111 1111 by 1?
+A. 0000 0000
+B. 1111 1110
+C. 0000 0001
+D. 1000 0000
+
+9. Arrange the following 4-bit two's complement numbers in ascending order:
+(1) 1001
+(2) 0111
+(3) 1111
+(4) 0001
+A. (1), (3), (4), (2)
+B. (3), (1), (4), (2)
+C. (1), (3), (2), (4)
+D. (3), (1), (2), (4)
+
+10. Which of the following operations in 8-bit two's complement will NOT produce an overflow error?
+A. Addition of two positive numbers that sum to more than +127
+B. Addition of two negative numbers that sum to less than -128
+C. Addition of a positive and a negative number
+D. Addition of 0111 1111 and 0000 0001
+
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Character Coding
+1. A software developer is creating a mobile app that will display text in English, Japanese, and Arabic. Which character encoding should be used to ensure all languages display correctly?
+A. ASCII
+B. Big-5
+C. UTF-8
+D. GB2312
+2. Which of the following statements about character encoding are correct?
+(1) ASCII can represent 256 different characters
+(2) Unicode supports characters from multiple writing systems
+(3) Big-5 code is primarily used for Simplified Chinese
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) only
+D. (2) and (3) only
+3. The ASCII code for uppercase 'M' is 77 in decimal. What is the ASCII code for uppercase 'P' in hexadecimal?
+A. 4F
+B. 50
+C. 51
+D. 52
+4. A text file containing Thai script and English text should be saved using which character encoding?
+A. ASCII only
+B. Big-5 code only
+C. Unicode (UTF-8)
+D. GB18030
+5. Which of the following character encodings uses the most memory to store the same English paragraph?
+A. ASCII
+B. UTF-8
+C. UTF-16
+D. Big-5
+6. A website displays random symbols instead of Korean text. What is the most likely cause?
+A. The web server is too slow
+B. The character encoding is set to ASCII
+C. The monitor resolution is too low
+D. The internet connection is unstable
+7. Mary saves a document containing 100 Chinese characters using Big-5 encoding. What is the approximate file size for the text content?
+A. 100 bytes
+B. 200 bytes
+C. 400 bytes
+D. 800 bytes
+8. Which of the following is an advantage of UTF-8 over ASCII for international websites?
+A. Smaller file size for English text
+B. Better security encryption
+C. Support for emoji characters
+D. Faster processing speed
+9. The hexadecimal codes for the word "CAT" in ASCII are:
+A. 43 41 54
+B. 63 61 74
+C. 43 61 74
+D. 63 41 54
+10. Why is Unicode considered superior to regional character sets like Big-5 or GB2312 for modern applications?
+(1) It supports multiple languages in the same document
+(2) It has better compression algorithms
+(3) It is universally supported across different platforms
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Data Representation
+1. A company uses 12-bit codes to identify its products in inventory. What is the maximum number of unique product codes available?
+A. 128
+B. 256
+C. 2048
+D. 4096
+2. Which of the following activities involve analog-to-digital conversion?
+(1) Recording voice using a microphone connected to a computer
+(2) Printing a color photograph on a printer
+(3) Scanning a barcode at a supermarket checkout
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+3. A grayscale image uses 4 bits per pixel. How many different shades of gray can be represented?
+A. 4
+B. 8
+C. 16
+D. 32
+4. A school needs to assign unique student ID numbers to 800 students. What is the minimum number of bits required?
+A. 8
+B. 10
+C. 12
+D. 16
+5. The hexadecimal color code #FF8000 represents a color where:
+A. Red and green components are maximum, blue is zero
+B. Red is maximum, green is half, blue is zero
+C. Red is half, green is maximum, blue is zero
+D. All color components are equal
+6. A security system uses 6 switches that can be either ON or OFF. How many different security codes are possible?
+A. 12
+B. 36
+C. 64
+D. 128
+7. Which of the following statements about QR codes is correct?
+A. QR codes can only store numeric data
+B. Damaged QR codes cannot be read at all
+C. QR codes can store URLs and contact information
+D. QR codes require an internet connection to be scanned
+8. A database uses 24 bits to store each user ID. What is the maximum number of users the system can support?
+A. 16,777,216
+B. 1,048,576
+C. 65,536
+D. 256
+9. An 8-bit system is used to represent sound levels. What is the maximum number of different sound levels that can be represented?
+A. 8
+B. 64
+C. 128
+D. 256
+10. Which of the following is an advantage of using digital data over analog data?
+(1) Digital data can be copied without quality loss
+(2) Digital data is less affected by noise during transmission
+(3) Digital data requires less storage space
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Multimedia
+1. Which of the following file formats is primarily used for vector graphics?
+A. JPG
+B. PNG
+C. SVG
+D. BMP
+2. A photographer needs to edit high-quality images for printing but wants to preserve all original image data. Which file format should she use during editing?
+A. JPG
+B. GIF
+C. RAW
+D. PNG
+3. Which of the following statements about audio file formats are correct?
+(1) MP3 files use lossy compression
+(2) WAV files are typically uncompressed
+(3) MIDI files store actual audio recordings
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+4. A video producer needs to create a file that can be easily streamed over the internet. Which video format would be most suitable?
+A. AVI
+B. MP4
+C. RAW
+D. TIFF
+5. Why might a web designer choose PNG format over JPG for certain images?
+(1) PNG supports transparency
+(2) PNG uses lossless compression
+(3) PNG files are always smaller than JPG files
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+6. Which of the following is a key advantage of using MP4 video format compared to AVI?
+A. Better video quality
+B. Smaller file size with good quality
+C. Support for higher resolutions
+D. No compression applied
+7. A graphic designer is creating a logo that needs to be scalable to different sizes without losing quality. Which format should be used?
+A. JPG
+B. BMP
+C. SVG
+D. GIF
+8. Which of the following statements about GIF format are correct?
+(1) Supports animation
+(2) Uses lossless compression
+(3) Supports millions of colors
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+9. A music producer is archiving original recordings and wants to preserve the highest possible quality. Which audio format should be used?
+A. MP3
+B. WAV
+C. MIDI
+D. AAC
+10. Which of the following factors most affects the file size of a digital video?
+(1) Resolution
+(2) Frame rate
+(3) Compression method
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Data Control
+1. What are the advantages of using a drop-down menu for entering dates in an online form instead of a text box?
+(1) Prevents invalid dates like February 30th
+(2) Ensures consistent date format
+(3) Allows users to type any date they want
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+2. An 8-bit code 10110110 is received with the last bit as an even parity bit. Which of the following received codes has an error?
+A. 11001100
+B. 01100110
+C. 10101011
+D. 00110011
+3. What is the purpose of asking users to enter their email address twice during online registration?
+A. Data validation
+B. Data verification
+C. Data compression
+D. Data encryption
+4. A student ID number uses a check digit as the last digit. The validation method requires that the sum of all digits modulo 10 equals 0. Which of the following ID numbers is valid?
+A. 56386
+B. 56387
+C. 56388
+D. 56389
+5. Which of the following is an example of data validation?
+A. Comparing two entries of password to ensure they match
+B. Checking that an age value falls between 0 and 150
+C. Asking users to re-enter their username
+D. Sending a confirmation email to verify an account
+________________
+
+
+6. A computer receives three data sequences with even parity bits. Two sequences are corrupted:
+First:                 0110 0110
+Second:        1100 1011
+Third:                 1011 1100
+Which sequences are corrupted?
+A. First and second
+B. First and third
+C. Second and third
+D. All three
+7. When creating an online banking password, which requirement represents data validation?
+A. Entering the password twice
+B. The password must contain at least one number and one special character
+C. Answering security questions if the password is forgotten
+D. Receiving an SMS code to confirm the password change
+8. Which of the following statements about check digits is correct?
+A. Check digits can correct all transmission errors automatically
+B. Check digits can detect some but not all types of errors
+C. Check digits ensure data is encrypted during transmission
+D. Check digits reduce the file size of transmitted data
+9. A library system uses barcode scanners for book checkout. What is the main data control advantage of using scanners instead of manual entry?
+A. Reduces data storage requirements
+B. Increases data transmission speed
+C. Minimizes data entry errors
+D. Enhances data encryption
+10. Which of the following online form features helps prevent data entry errors?
+(1) Input masks for telephone numbers
+(2) Range checks for numerical values
+(3) Drop-down lists for limited options
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Parity Bit & Check Digit
+1. A computer receives the data sequence 10110110 with the last bit as an odd parity bit. Which of the following statements is correct?
+A. The data is received correctly
+B. The data has a single-bit error
+C. The parity bit should be 0 for odd parity
+D. The sequence has even number of 1's including parity bit
+2. A product code uses a check digit where the sum of all digits must be divisible by 9. Which of the following codes is valid?
+A. 27322
+B. 27323
+C. 27324
+D. 27325
+3. A system uses even parity for error detection. Which of the following 8-bit sequences (with parity bit as the last bit) contains an error?
+A. 10101010
+B. 01100110
+C. 11001101
+D. 00110011
+4. An ISBN uses a specific check digit algorithm. What is the main limitation of check digit systems?
+A. They can correct errors automatically
+B. They can detect all types of transmission errors
+C. They cannot detect errors where multiple digits are transposed
+D. They increase data transmission speed
+5. Which of the following received 7-bit data sequences (with even parity) has an error?
+A. 1010101
+B. 0110011
+C. 1100110
+D. 0011001
+6. A bank account number uses a check digit calculated by multiplying each digit by its position and summing the results modulo 10. For number 3456X, what should X be if the calculation is (3×1 + 4×2 + 5×3 + 6×4 + X×5) mod 10 = 0?
+A. 0
+B. 1
+C. 3
+D. 5
+________________
+
+
+7. Three 8-bit sequences are received with odd parity. Which ones contain errors?
+Sequence 1: 10101011
+Sequence 2: 01100110
+Sequence 3: 11001100
+A. Sequence 1 only
+B. Sequence 2 only
+C. Sequence 1 and 3 only
+D. Sequence 2 and 3 only
+8. What is the primary purpose of using a parity bit in data transmission?
+A. To compress the data
+B. To encrypt the data
+C. To detect single-bit errors
+D. To correct transmission errors
+9. A customer ID 73482 uses a check digit where the sum of digits modulo 7 must equal 0. What check digit should be added?
+A. 1
+B. 3
+C. 4
+D. 7
+10. Which of the following statements about parity bits are correct?
+(1) Even parity means the total number of 1's including parity bit is even
+(2) Parity bits can detect all multiple-bit errors
+(3) Parity bits add one extra bit to the original data
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Data Compression
+1. Mary creates a compressed file containing document files stored in several folders. She uploads the compressed file to cloud storage. What are the benefits of using a compressed file?
+(1) The folder structure can be maintained
+(2) The upload time is reduced
+(3) The files are automatically encrypted
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+2. The file sizes of the following original files are all 10 MB. After compressing them, which compressed file will likely have the smallest size?
+A. testA.txt (text document)
+B. testB.bmp (bitmap image)
+C. testC.jpg (already compressed JPEG image)
+D. testD.mp3 (audio file)
+3. Which of the following statements about lossless compression are correct?
+(1) The original data can be perfectly reconstructed
+(2) It typically achieves higher compression ratios than lossy compression
+(3) It is suitable for compressing program executable files
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+4. A photographer needs to send high-resolution images to a client via email. The email server has a 25MB attachment limit. What should the photographer do?
+A. Reduce the image dimensions
+B. Convert images from PNG to JPG format
+C. Split the images into multiple emails
+D. Use lossless compression on the images
+5. Which of the following file types would benefit most from compression?
+A. Already compressed ZIP file
+B. Uncompressed text document
+C. MP4 video file
+D. JPG image file
+________________
+
+
+6. What is the main advantage of using compressed files for internet downloads?
+A. Increased security against viruses
+B. Reduced download time
+C. Automatic file encryption
+D. Improved file quality
+7. A company needs to archive thousands of text documents. Which compression method should they use?
+A. Lossy compression to maximize space savings
+B. Lossless compression to preserve all original data
+C. No compression to maintain fast access
+D. Encryption instead of compression for security
+8. Which of the following statements about file compression are correct?
+(1) Compression reduces the number of bits needed to represent data
+(2) All file types can be compressed equally well
+(3) Compression can sometimes increase file size
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+9. Why might a video streaming service use lossy compression for its content?
+(1) To reduce bandwidth requirements
+(2) To maintain perfect video quality
+(3) To allow faster streaming
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+10. A student needs to submit multiple large image files for a design project. The submission system has a 50MB limit. Which approach would be most effective?
+A. Convert images from BMP to PNG format
+B. Use lossy compression on the images
+C. Rename the files with shorter names
+D. Split the submission into multiple parts
+________________
+
+
+
+
+________________
+
+
+Revision Exercise: Spreadsheet
+1. Given the following spreadsheet data:
+
+
+	A
+	B
+	1
+	Product
+	Sales
+	2
+	A
+	1500
+	3
+	B
+	2200
+	4
+	A
+	1800
+	5
+	C
+	1200
+	6
+	B
+	2500
+	What is the result of the formula: =SUMIF(A2:A6,"B",B2:B6)?
+A. 2200
+B. 2500
+C. 4700
+D. 9200
+2. A teacher wants to analyze test scores to find students who scored above 80 in both Mathematics and English. Which spreadsheet feature should be used?
+A. Pivot table
+B. Goal Seek
+C. Advanced Filter
+D. Data Validation
+3. In a spreadsheet, cell E1 contains the formula =SUM(A1:D1). If this formula is copied to cell E2, what will the formula in E2 be?
+A. =SUM(A1:D1)
+B. =SUM(A2:D2)
+C. =SUM(B1:E1)
+D. =SUM(A1:E1)
+4. Which of the following chart types is most appropriate for showing the proportion of sales contributed by different product categories?
+A. Line chart
+B. Bar chart
+C. Pie chart
+D. Scatter plot
+5. A company wants to determine the maximum price they can charge for a product while maintaining a 25% profit margin, given fixed costs. Which spreadsheet tool should they use?
+A. Pivot Table
+B. Goal Seek
+C. Data Filter
+D. Conditional Formatting
+________________
+
+
+6. Given the following data:
+
+
+	A
+	B
+	1
+	Month
+	Sales
+	2
+	Jan
+	10000
+	3
+	Feb
+	12000
+	4
+	Mar
+	15000
+	5
+	Apr
+	11000
+	What formula would calculate the average sales for months with sales exceeding 11000?
+A. =AVERAGE(B2:B5)
+B. =AVERAGEIF(B2:B5,">11000")
+C. =SUMIF(B2:B5,">11000")/COUNT(B2:B5)
+D. =AVERAGE(B2:B5)*0.25
+7. A sales manager wants to highlight all cells in column B where sales exceed $10,000 with green color. Which feature should be used?
+A. Data Validation
+B. Conditional Formatting
+C. Cell Protection
+D. Text Formatting
+8. Which formula would count how many students in column A (A2:A50) are in "Class 5B"?
+A. =COUNT(A2:A50,"5B")
+B. =COUNTIF(A2:A50,"Class 5B")
+C. =SUMIF(A2:A50,"5B")
+D. =TOTAL(A2:A50,"Class 5B")
+9. What is the primary purpose of using absolute cell references (e.g., $A$1) in spreadsheet formulas?
+A. To make the formula calculate faster
+B. To keep a cell reference constant when copying formulas
+C. To reference cells from another worksheet
+D. To prevent other users from editing the cell
+10. A business owner wants to project future sales based on current growth trends. Which spreadsheet feature would be most helpful?
+A. Data sorting
+B. Pivot table
+C. Fill handle with series
+D. Text-to-columns
+________________
+
+
+________________
+
+
+Revision Exercise: Database Management System
+1. A supermarket database table PRODUCT has fields: ProductID, ProductName, Category, Price, StockQuantity. Which SQL statement will list all products in the "Beverages" category sorted by price from highest to lowest?
+A. SELECT * FROM PRODUCT WHERE Category="Beverages" ORDER BY Price
+B. SELECT * FROM PRODUCT WHERE Category="Beverages" ORDER BY Price DESC
+C. SELECT ALL FROM PRODUCT FOR Category="Beverages" SORT BY Price
+D. LIST * FROM PRODUCT WHERE Category="Beverages" BY Price HIGH
+2. What is the primary advantage of using a form for data entry in a database management system?
+A. It reduces the storage space required for data
+B. It provides a user-friendly interface and reduces input errors
+C. It speeds up SQL query execution
+D. It automatically creates backup copies of data
+3. A database table STUDENT contains the following fields: StudentID, Name, BirthDate, Class, AverageMark. Which data type is most appropriate for the BirthDate field?
+A. Integer
+B. Text
+C. Date/Time
+D. Boolean
+4. Given a database table EMPLOYEE with records:
+EmpID
+	Name
+	Department
+	Salary
+	101
+	John
+	Sales
+	50000
+	102
+	Mary
+	IT
+	60000
+	103
+	Peter
+	Sales
+	55000
+	104
+	Sarah
+	HR
+	48000
+	What is the output of: SELECT COUNT(*) FROM EMPLOYEE WHERE Department='Sales'?
+A. 1
+B. 2
+C. 3
+D. 4
+5. Why is it better to store a person's birth date rather than their age in a database?
+A. Birth date uses less storage space
+B. Age is more accurate for calculations
+C. Birth date remains constant while age changes
+D. Age requires more complex SQL queries
+________________
+
+
+6. Which of the following SQL statements will find the highest salary in each department?
+A. SELECT Department, MAX(Salary) FROM EMPLOYEE
+B. SELECT Department, MAX(Salary) FROM EMPLOYEE GROUP BY Department
+C. SELECT Department, TOP(Salary) FROM EMPLOYEE ORDER BY Department
+D. SELECT Department, HIGHEST(Salary) FROM EMPLOYEE CATEGORY BY Department
+7. A library database has a table BOOK with fields: ISBN, Title, Author, PublicationYear, AvailableCopies. Which field is most suitable as a primary key?
+A. Title
+B. Author
+C. ISBN
+D. PublicationYear
+8. What is the purpose of the WHERE clause in an SQL SELECT statement?
+A. To specify which columns to display
+B. To define the sort order of results
+C. To specify conditions for selecting records
+D. To group records based on field values
+9. A company wants to create a user-friendly interface for staff to enter customer orders without knowing SQL. What should they create?
+A. A report
+B. A query
+C. A form
+D. A macro
+10. Given the table ORDERS:
+OrderID
+	CustomerID
+	Product
+	Quantity
+	OrderDate
+	1001
+	C205
+	Laptop
+	2
+	2024-01-15
+	1002
+	C118
+	Mouse
+	5
+	2024-01-16
+	1003
+	C205
+	Keyboard
+	3
+	2024-01-17
+	What does this SQL statement return: SELECT CustomerID, SUM(Quantity) FROM ORDERS GROUP BY CustomerID?
+A. The total quantity ordered by each customer
+B. The number of orders placed by each customer
+C. The average quantity per order for each customer
+D. All orders grouped by customer ID
+________________
+
+
+________________
+
+
+________________
+
+
+Revision Exercise: Presentation & General Software Usage
+1. Which of the following are advantages of using web-based presentation tools compared to desktop presentation software?
+(1) Multiple users can collaborate simultaneously
+(2) No software installation required
+(3) Presentations are accessible from any device with internet
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+2. A teacher wants to add verbal explanations to specific slides in a presentation. Which feature should be used?
+A. Slide transitions
+B. Animation effects
+C. Audio recording per slide
+D. Video embedding
+3. When using Object Linking and Embedding (OLE) to insert a spreadsheet chart into a presentation, what is the main advantage of linking over embedding?
+A. Linked objects make the presentation file smaller
+B. Linked objects can be edited directly in the presentation
+C. Linked objects don't require the original application
+D. Linked objects have better image quality
+4. Which of the following statements about mail merge are correct?
+(1) A spreadsheet can be used as the data source
+(2) Merge fields are replaced with actual data during merging
+(3) The main document and data source must be in the same file
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+5. A company wants to create a self-running presentation for a trade show booth. Which feature is most important to set up?
+A. Slide timing
+B. Hyperlinks
+C. Speaker notes
+D. Print handouts
+________________
+
+
+6. What happens when a user clicks a hyperlink in a presentation that links to a PDF document?
+A. The presentation will close automatically
+B. A PDF reader will open to display the document
+C. The PDF will replace the current slide
+D. The hyperlink will not work without internet
+7. Which of the following is the best reason to save a presentation in PDF format instead of the software's native format?
+A. To allow editing of the content
+B. To preserve the layout across different devices
+C. To reduce the file size significantly
+D. To add animation effects
+8. A sales team needs to create personalized proposal letters for 200 clients using client data stored in a database. Which software feature should they use?
+A. Pivot table
+B. Mail merge
+C. Conditional formatting
+D. Data validation
+9. When creating a presentation with verbal narration, which file format would be most suitable for sharing online?
+A. PPT (PowerPoint format)
+B. PDF (Portable Document Format)
+C. MP4 (video format)
+D. DOC (Word document format)
+10. Which of the following actions can be performed by clicking a hyperlink in a presentation?
+(1) Jump to a specific slide in the same presentation
+(2) Open a web page in a browser
+(3) Start a video playback
+A. (1) and (2) only
+B. (1) and (3) only
+C. (2) and (3) only
+D. (1), (2) and (3)
+________________
+
+
+
+
+________________
+
+
+Answer Key: Information Age
+1. A - While information is widely and quickly accessible, not all of it is correct, making statement (3) false.
+2. B - The Information Age has created jobs like data scientists, web developers, and digital marketers.
+3. B - Information literacy helps people identify fake news and judge source credibility, but it does not mean everyone can program.
+4. B - The digital divide is the social and economic inequality caused by unequal access to information and communication technology.
+5. B - The Internet has revolutionized education, providing vast resources for online courses and self-learning.
+6. B - Easy copying and sharing of digital content have made intellectual property rights a significant ethical and legal issue.
+7. B - 'Big data' refers to extremely large datasets that require new technologies and methods to process and analyze.
+8. B - Robots excel at accurate, repetitive, and dangerous tasks, but they cannot replicate all aspects of human judgment and creativity.
+9. B - A knowledge-based society is one where the creation, distribution, and use of information and knowledge are the main drivers of growth.
+10. C - The main benefit of digitization is improved access, allowing people to view materials from anywhere, often at any time.
+Answer Key: Data Processing
+1. C - The purpose and objectives must be defined first as they guide all other decisions in system development.
+2. C - Data collection involves gathering raw data from the environment, such as through sensors.
+3. B - Digitization primarily facilitates easier access, retrieval, and sharing of documents.
+4. C - Data analysis involves examining data to draw conclusions, such as identifying patterns or trends.
+5. A - For finding routes, only the start and end points are essential inputs.
+6. C - Sorting data is a processing activity that organizes data for further use.
+7. C - Temperature is a real number, UV index is an integer, and air pollution level is descriptive text (string).
+8. B - Data control mechanisms (like validation and verification) are crucial for maintaining data quality and reliability.
+9. D - Scanning converts a physical, analog image into a digital file composed of binary data.
+10. C - FTP (File Transfer Protocol) is a method for transferring data, so it is classified under the "Data" component of an information system.
+Answer Key: Binary / Two's Complement
+1. B - The range for n-bit two's complement is -2^(n-1) to +(2^(n-1)-1)
+2. C - This adds two positive numbers (67 + 60 = 127) which exceeds +127
+3. A - 1110 1001 represents -23 in two's complement
+4. A - +45 = 0010 1101, one's complement = 1101 0010, two's complement = 1101 0011
+5. C - Overflow occurs when carry into sign bit ≠ carry out of sign bit
+6. C - 0111 1111 (+127) + 0000 0001 (+1) = +128, which causes overflow
+7. A - 0111 = +7 (largest positive), 1000 = -8, 1111 = -1, 0001 = +1
+8. A - 1111 1111 (-1) + 1 = 0000 0000 (0)
+9. B - Values: 1001 = -7, 0111 = +7, 1111 = -1, 0001 = +1. Order: -7, -1, +1, +7
+10. C - Adding positive and negative numbers cannot cause overflow as the result lies between the two operands
+Answer Key: Character Coding
+1. C - UTF-8 can represent all Unicode characters, covering English, Japanese, and Arabic scripts comprehensively.
+2. C - ASCII represents 128 characters (not 256), Unicode supports multiple writing systems, and Big-5 is for Traditional Chinese (not Simplified).
+3. B - 'M' is 77, 'N' is 78, 'O' is 79, 'P' is 80 in decimal, which is 50 in hexadecimal.
+4. C - Only Unicode (UTF-8) supports both Thai script and English characters effectively.
+5. C - UTF-16 typically uses 2 bytes per character for most common characters, while ASCII uses 1 byte and UTF-8 uses 1 byte for English characters.
+6. B - Incorrect character encoding (using ASCII instead of UTF-8) is the most common cause of text display problems with non-Latin scripts.
+7. B - Big-5 encoding uses 2 bytes per Chinese character, so 100 characters × 2 bytes = 200 bytes.
+8. C - UTF-8 can represent emoji characters (which are part of Unicode), while ASCII cannot.
+9. A - 'C' is 43, 'A' is 41, 'T' is 54 in hexadecimal ASCII codes (uppercase letters).
+10. B - Unicode's main advantages are multi-language support and universal platform compatibility, not better compression.
+Answer Key: Data Representation
+1. D - 2¹² = 4096 unique codes
+2. B - Recording voice and scanning barcodes both convert analog signals to digital data, while printing converts digital to analog
+3. C - 2⁴ = 16 different shades
+4. B - 2⁹ = 512 (too small), 2¹⁰ = 1024 (sufficient for 800 students)
+5. B - FF (maximum) for red, 80 (half of FF) for green, 00 (zero) for blue
+6. C - 2⁶ = 64 different combinations
+7. C - QR codes can store various types of data including URLs, contact info, and text
+8. A - 2²⁴ = 16,777,216 users
+9. D - 2⁸ = 256 different levels
+10. A - Digital data can be copied perfectly and is more noise-resistant, but doesn't necessarily require less storage space
+Answer Key: Multimedia
+1. C - SVG (Scalable Vector Graphics) is designed for vector graphics, while the others are raster formats.
+2. C - RAW format preserves all original image data without compression, making it ideal for professional editing.
+3. A - MP3 uses lossy compression, WAV is typically uncompressed, but MIDI files store musical instructions rather than actual audio.
+4. B - MP4 provides good compression and is widely supported for internet streaming.
+5. A - PNG supports transparency and uses lossless compression, but PNG files are not always smaller than JPG files.
+6. B - MP4 uses efficient compression to achieve smaller file sizes while maintaining good quality.
+7. C - SVG is a vector format that can be scaled to any size without quality loss.
+8. A - GIF supports animation and uses lossless compression, but is limited to 256 colors.
+9. B - WAV files are uncompressed and preserve the original audio quality, ideal for archiving.
+10. D - All three factors (resolution, frame rate, and compression method) significantly affect video file size.
+Answer Key: Data Control
+1. A - Drop-down menus prevent invalid dates and ensure format consistency but restrict user input to predefined options.
+2. C - 10101011 has five 1's (odd number), violating even parity with the parity bit included.
+3. B - Entering data twice is a verification technique to ensure accurate data entry.
+4. C - 5+6+3+8+8 = 30, and 30 mod 10 = 0, making this ID valid.
+5. B - Checking that data falls within acceptable ranges is validation, while comparing entries is verification.
+6. C - Second sequence has five 1's (odd), third has five 1's (odd), both violating even parity.
+7. B - Password complexity requirements are a form of data validation.
+8. B - Check digits can detect certain errors but cannot correct them automatically and don't provide encryption or compression.
+9. C - Barcode scanners significantly reduce errors compared to manual data entry.
+10. D - All three features help prevent data entry errors through controlled input methods.
+Answer Key: Parity Bit & Check Digit
+1. A - The sequence 10110110 has five 1's (odd number), which satisfies odd parity requirement.
+2. D - 4+7+3+2+8 = 24, and 24 is divisible by 9.
+3. C - 11001101 has five 1's (odd number), violating even parity requirement.
+4. C - Check digit systems cannot detect all error patterns, particularly some transposition errors where digits are swapped.
+5. D - 0011001 has three 1's (odd number), violating even parity requirement.
+6. C - (3×1 + 4×2 + 5×3 + 6×4) = 3+8+15+24 = 50. (50 + 5X) mod 10 = 0, so 5X must end with 0, making X = 4.
+7. D - Sequence 2 has four 1's (even), Sequence 3 has four 1's (even), both violating odd parity requirement.
+8. C - The primary purpose of parity bits is to detect single-bit errors during data transmission.
+9. C - 7+3+4+8+2 = 24. 24 mod 7 = 3. To make the sum divisible by 7, check digit must be 4 (24+4=28, 28÷7=4).
+10. B - Statement (1) and (3) are correct. Parity bits cannot detect all multiple-bit errors.
+Answer Key: Data Compression
+1. A - Compression maintains folder structure and reduces upload time, but does not automatically encrypt files.
+2. A - Text documents typically have high redundancy and compress well, while already compressed files like JPG and MP3 won't compress much further.
+3. B - Lossless compression allows perfect reconstruction and is suitable for executable files, but typically has lower compression ratios than lossy methods.
+4. B - Converting from PNG (lossless) to JPG (lossy) can significantly reduce file size while maintaining acceptable quality for most purposes.
+5. B - Uncompressed text documents have high redundancy and compress well, unlike already compressed files.
+6. B - The primary advantage of compression for downloads is reduced file size, which decreases download time.
+7. B - For archival purposes, lossless compression is essential to preserve all original data while saving storage space.
+8. B - Compression reduces bits needed and can increase size for already compressed files, but different file types compress differently.
+9. B - Lossy compression reduces bandwidth and allows faster streaming, but does not maintain perfect quality.
+10. B - Lossy compression would provide the most significant size reduction while maintaining usable image quality for the project.
+Answer Key: Spreadsheet
+1. C - SUMIF adds all values in B2:B6 where corresponding cells in A2:A6 equal "B" (2200 + 2500 = 4700)
+2. C - Advanced Filter can find records meeting multiple criteria (Math > 80 AND English > 80)
+3. B - When copied down, relative references adjust, so A1:D1 becomes A2:D2
+4. C - Pie charts are ideal for showing proportions or percentages of a whole
+5. B - Goal Seek can find the input value needed to achieve a desired result (25% profit margin)
+6. B - AVERAGEIF calculates the average of cells that meet the specified criteria (>11000)
+7. B - Conditional Formatting automatically applies formatting based on cell values
+8. B - COUNTIF counts the number of cells in a range that meet the given criteria
+9. B - Absolute references ($A$1) remain constant when formulas are copied to other cells
+10. C - The fill handle can extend a series or trend to project future values
+Answer Key: Database Management System
+1. B - WHERE filters for "Beverages" category and ORDER BY Price DESC sorts from highest to lowest price
+2. B - Forms provide a controlled interface that can include validation rules, dropdowns, and formatted fields to minimize input errors
+3. C - Date/Time is the appropriate data type for storing date information
+4. B - There are 2 employees in the Sales department (John and Peter)
+5. C - Birth date is a fixed value, while age changes over time and would require frequent updates
+6. B - GROUP BY Department combined with MAX(Salary) finds the maximum salary within each department
+7. C - ISBN is unique for each book and never changes, making it ideal as a primary key
+8. C - The WHERE clause filters records based on specified conditions
+9. C - Forms provide an intuitive interface for data entry without requiring SQL knowledge
+10. A - GROUP BY CustomerID with SUM(Quantity) calculates the total quantity ordered by each customer
+Answer Key: Presentation & General Software Usage
+1. D - Web-based tools offer real-time collaboration, no installation needs, and cross-device accessibility
+2. C - Audio recording per slide allows adding specific verbal explanations to individual slides
+3. A - Linking keeps the presentation file smaller since it only contains a reference to the original file
+4. A - Mail merge can use external data sources like spreadsheets, and merge fields are replaced with actual data during the process
+5. A - Slide timing is essential for self-running presentations to control how long each slide displays
+6. B - The associated application (PDF reader) will open to display the linked document
+7. B - PDF format ensures consistent layout and appearance regardless of the device or software used to view it
+8. B - Mail merge is designed specifically for creating multiple personalized documents from a data source
+9. C - MP4 format preserves both the visual content and audio narration in a single, widely compatible file
+10. D - Hyperlinks in presentations can navigate within the presentation, open external resources like web pages, and trigger media playback

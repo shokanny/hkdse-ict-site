@@ -30,9 +30,6 @@ A. An increase in the cost of long-distance communication.
 B. More opportunities for online learning and self-education.
 C. A decrease in the need for data storage capacity.
 D. The standardization of all global languages.
-________________
-
-
 6. What is a major ethical concern in the Information Age?
 A. The high cost of computer hardware.
 B. The protection of intellectual property and copyright.
@@ -62,12 +59,6 @@ B. Destroy the original documents to save space.
 C. Make the content more widely accessible.
 D. Increase the borrowing fees for members.
 ________________
-
-
-
-
-________________
-
 
 Revision Exercise: Data Processing
 1. When developing a management information system, which of the following should be the first item to be considered?
@@ -132,10 +123,6 @@ ________________
 
 
 
-
-________________
-
-
 Revision Exercise: Binary / Two's Complement
 1. What is the range of values that can be represented by an 8-bit two's complement system?
 A. -127 to +128
@@ -166,9 +153,6 @@ A. The result is negative
 B. The carry into the sign bit equals the carry out of the sign bit
 C. The carry into the sign bit differs from the carry out of the sign bit
 D. The result is zero
-
-________________
-
 
 6. Perform the following 8-bit two's complement addition: 0111 1111 + 0000 0001. What is the result?
 A. 1000 0001
@@ -203,11 +187,6 @@ A. Addition of two positive numbers that sum to more than +127
 B. Addition of two negative numbers that sum to less than -128
 C. Addition of a positive and a negative number
 D. Addition of 0111 1111 and 0000 0001
-
-________________
-
-
-
 
 ________________
 
@@ -269,11 +248,6 @@ A. (1) and (2) only
 B. (1) and (3) only
 C. (2) and (3) only
 D. (1), (2) and (3)
-________________
-
-
-
-
 ________________
 
 
@@ -1040,4 +1014,5 @@ Answer Key: Presentation & General Software Usage
 7. B - PDF format ensures consistent layout and appearance regardless of the device or software used to view it
 8. B - Mail merge is designed specifically for creating multiple personalized documents from a data source
 9. C - MP4 format preserves both the visual content and audio narration in a single, widely compatible file
+
 10. D - Hyperlinks in presentations can navigate within the presentation, open external resources like web pages, and trigger media playback

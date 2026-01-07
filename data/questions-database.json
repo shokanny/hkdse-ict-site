@@ -31,5 +31,115 @@
     "question": "What is normalization in database design?",
     "answer": "The process of organizing data to reduce redundancy",
     "explanation": "Normalization is the process of organizing database tables to minimize data redundancy and improve data integrity."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A supermarket database table PRODUCT has fields: ProductID, ProductName, Category, Price, StockQuantity. Which SQL statement will list all products in the \"Beverages\" category sorted by price from highest to lowest?",
+    "options": [
+      "SELECT * FROM PRODUCT WHERE Category=\"Beverages\" ORDER BY Price",
+      "SELECT * FROM PRODUCT WHERE Category=\"Beverages\" ORDER BY Price DESC",
+      "SELECT ALL FROM PRODUCT FOR Category=\"Beverages\" SORT BY Price",
+      "LIST * FROM PRODUCT WHERE Category=\"Beverages\" BY Price HIGH"
+    ],
+    "answer": "SELECT * FROM PRODUCT WHERE Category=\"Beverages\" ORDER BY Price DESC",
+    "explanation": "The correct SQL uses WHERE to filter and ORDER BY Price DESC to sort from highest to lowest."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "What is the primary advantage of using a form for data entry in a database management system?",
+    "options": [
+      "It reduces the storage space required for data",
+      "It provides a user-friendly interface and reduces input errors",
+      "It speeds up SQL query execution",
+      "It automatically creates backup copies of data"
+    ],
+    "answer": "It provides a user-friendly interface and reduces input errors",
+    "explanation": "Forms guide users and include validation to minimise mistakes during data entry."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A database table STUDENT contains the fields: StudentID, Name, BirthDate, Class, AverageMark. Which data type is most appropriate for the BirthDate field?",
+    "options": ["Integer", "Text", "Date/Time", "Boolean"],
+    "answer": "Date/Time",
+    "explanation": "A date/time field stores dates consistently and supports date calculations."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Given a database table EMPLOYEE with records across departments, what is the output of: SELECT COUNT(*) FROM EMPLOYEE WHERE Department='Sales'?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2",
+    "explanation": "Based on the sample data, two employees belong to the Sales department."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Why is it better to store a person's birth date rather than their age in a database?",
+    "options": [
+      "Birth date uses less storage space",
+      "Age is more accurate for calculations",
+      "Birth date remains constant while age changes",
+      "Age requires more complex SQL queries"
+    ],
+    "answer": "Birth date remains constant while age changes",
+    "explanation": "Storing the birth date avoids constant updates and allows age to be calculated when needed."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Which of the following SQL statements will find the highest salary in each department?",
+    "options": [
+      "SELECT Department, MAX(Salary) FROM EMPLOYEE",
+      "SELECT Department, MAX(Salary) FROM EMPLOYEE GROUP BY Department",
+      "SELECT Department, TOP(Salary) FROM EMPLOYEE ORDER BY Department",
+      "SELECT Department, HIGHEST(Salary) FROM EMPLOYEE CATEGORY BY Department"
+    ],
+    "answer": "SELECT Department, MAX(Salary) FROM EMPLOYEE GROUP BY Department",
+    "explanation": "GROUP BY Department with MAX aggregates salaries per department."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "A library database has a table BOOK with fields: ISBN, Title, Author, PublicationYear, AvailableCopies. Which field is most suitable as a primary key?",
+    "options": ["Title", "Author", "ISBN", "PublicationYear"],
+    "answer": "ISBN",
+    "explanation": "ISBN is unique for each book, making it the best primary key."
+  },
+  {
+    "id": 11,
+    "type": "mc",
+    "question": "What is the purpose of the WHERE clause in an SQL SELECT statement?",
+    "options": [
+      "To specify which columns to display",
+      "To define the sort order of results",
+      "To specify conditions for selecting records",
+      "To group records based on field values"
+    ],
+    "answer": "To specify conditions for selecting records",
+    "explanation": "WHERE filters records that meet given conditions before any grouping or sorting."
+  },
+  {
+    "id": 12,
+    "type": "mc",
+    "question": "A company wants to create a user-friendly interface for staff to enter customer orders without knowing SQL. What should they create?",
+    "options": ["A report", "A query", "A form", "A macro"],
+    "answer": "A form",
+    "explanation": "Forms provide guided data entry interfaces for users who do not write SQL."
+  },
+  {
+    "id": 13,
+    "type": "mc",
+    "question": "Given the table ORDERS with multiple customer purchases, what does this SQL return: SELECT CustomerID, SUM(Quantity) FROM ORDERS GROUP BY CustomerID?",
+    "options": [
+      "The total quantity ordered by each customer",
+      "The number of orders placed by each customer",
+      "The average quantity per order for each customer",
+      "All orders grouped by customer ID"
+    ],
+    "answer": "The total quantity ordered by each customer",
+    "explanation": "SUM with GROUP BY accumulates quantities per customer."
   }
 ]

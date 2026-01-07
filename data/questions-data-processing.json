@@ -63,5 +63,70 @@
     ],
     "answer": "(1) and (2) only",
     "explanation": "For finding routes, only the start and end points are essential inputs."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Which of the following matches between information process and example is correct?",
+    "options": [
+      "Data collection - Validating questionnaires before input",
+      "Data preparation - Creating a statistical chart",
+      "Data processing - Sorting questionnaires for data entry",
+      "Data organization - Designing an online questionnaire"
+    ],
+    "answer": "Data processing - Sorting questionnaires for data entry",
+    "explanation": "Sorting and arranging questionnaires is part of processing the collected data to prepare it for analysis."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "The weather information \"Temperature: 25.8, UV index: 4, Air pollution: moderate\" should be stored using which set of data types? [Temperature, UV index, Air pollution]",
+    "options": [
+      "String, Character, String",
+      "Integer, Character, Boolean",
+      "Real, Integer, String",
+      "Real, String, Boolean"
+    ],
+    "answer": "Real, Integer, String",
+    "explanation": "Temperature is a real number, UV index is typically an integer, and the pollution description is text."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "What is the primary importance of data control in an information system?",
+    "options": [
+      "It speeds up data transmission between devices",
+      "It ensures the accuracy and integrity of data throughout processing",
+      "It reduces the cost of system maintenance",
+      "It makes the user interface more attractive"
+    ],
+    "answer": "It ensures the accuracy and integrity of data throughout processing",
+    "explanation": "Data control protects accuracy, completeness, and integrity as data is collected, processed, and stored."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Which of the following activities involves converting analog data to digital data?",
+    "options": [
+      "Printing a text document",
+      "Listening to music from a CD",
+      "Speaking on a traditional landline telephone",
+      "Scanning a printed photograph into a computer"
+    ],
+    "answer": "Scanning a printed photograph into a computer",
+    "explanation": "Scanning converts the continuous tones of a photo into digital pixel values."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "In an information system, which component does \"FTP\" represent?",
+    "options": [
+      "Personnel",
+      "Software",
+      "Data",
+      "Networks"
+    ],
+    "answer": "Networks",
+    "explanation": "FTP is a network protocol for file transfer, so it belongs to the network component of an information system."
   }
 ]

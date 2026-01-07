@@ -13,5 +13,82 @@
     "question": "Write the binary number 1011 in decimal.",
     "answer": "11",
     "explanation": "1×8 + 0×4 + 1×2 + 1×1 = 11."
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "question": "A company uses 12-bit codes to identify its products in inventory. What is the maximum number of unique product codes available?",
+    "options": ["128", "256", "2048", "4096"],
+    "answer": "4096",
+    "explanation": "12 bits can represent 2^12 = 4096 unique codes."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A grayscale image uses 4 bits per pixel. How many different shades of gray can be represented?",
+    "options": ["4", "8", "16", "32"],
+    "answer": "16",
+    "explanation": "With 4 bits, 2^4 = 16 possible values (shades) are available."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A school needs to assign unique student ID numbers to 800 students. What is the minimum number of bits required?",
+    "options": ["8", "10", "12", "16"],
+    "answer": "10",
+    "explanation": "10 bits provide 2^10 = 1024 combinations, enough to cover 800 IDs."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A security system uses 6 switches that can be either ON or OFF. How many different security codes are possible?",
+    "options": ["12", "36", "64", "128"],
+    "answer": "64",
+    "explanation": "Each switch has 2 states, so 2^6 = 64 possible codes."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which of the following statements about QR codes is correct?",
+    "options": [
+      "QR codes can only store numeric data",
+      "Damaged QR codes cannot be read at all",
+      "QR codes can store URLs and contact information",
+      "QR codes require an internet connection to be scanned"
+    ],
+    "answer": "QR codes can store URLs and contact information",
+    "explanation": "QR codes can encode many data types, including URLs, contact details, and text."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "A database uses 24 bits to store each user ID. What is the maximum number of users the system can support?",
+    "options": ["16,777,216", "1,048,576", "65,536", "256"],
+    "answer": "16,777,216",
+    "explanation": "24 bits allow 2^24 = 16,777,216 unique values."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "An 8-bit system is used to represent sound levels. What is the maximum number of different sound levels that can be represented?",
+    "options": ["8", "64", "128", "256"],
+    "answer": "256",
+    "explanation": "An 8-bit value has 2^8 = 256 possible levels."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which of the following is an advantage of using digital data over analog data?",
+    "options": [
+      "(1) Digital data can be copied without quality loss",
+      "(2) Digital data is less affected by noise during transmission",
+      "(3) Digital data requires less storage space",
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "Digital copies do not degrade and are less susceptible to noise; storage needs vary with encoding."
   }
 ]

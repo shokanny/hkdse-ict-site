@@ -53,5 +53,55 @@
     ],
     "answer": "The character encoding is set to ASCII",
     "explanation": "Incorrect character encoding (using ASCII instead of UTF-8) is the most common cause of text display problems with non-Latin scripts."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Which of the following character encodings uses the most memory to store the same English paragraph?",
+    "options": ["ASCII", "UTF-8", "UTF-16", "Big-5"],
+    "answer": "UTF-16",
+    "explanation": "UTF-16 typically uses 2 bytes per character, so it consumes more space than ASCII or UTF-8 for English text."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Mary saves a document containing 100 Chinese characters using Big-5 encoding. What is the approximate file size for the text content?",
+    "options": ["100 bytes", "200 bytes", "400 bytes", "800 bytes"],
+    "answer": "200 bytes",
+    "explanation": "Big-5 uses 2 bytes per Chinese character, so 100 characters take about 200 bytes."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which of the following is an advantage of UTF-8 over ASCII for international websites?",
+    "options": [
+      "Smaller file size for English text",
+      "Better security encryption",
+      "Support for emoji characters",
+      "Faster processing speed"
+    ],
+    "answer": "Support for emoji characters",
+    "explanation": "UTF-8 can encode the full Unicode range, including emoji and non-Latin scripts, which ASCII cannot represent."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "The hexadecimal codes for the word \"CAT\" in ASCII are:",
+    "options": ["43 41 54", "63 61 74", "43 61 74", "63 41 54"],
+    "answer": "43 41 54",
+    "explanation": "ASCII codes: C=43, A=41, T=54 in hexadecimal."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Why is Unicode considered superior to regional character sets like Big-5 or GB2312 for modern applications?",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
+    ],
+    "answer": "(1) and (3) only",
+    "explanation": "Unicode is designed for multilingual support and is widely supported across platforms; it is not primarily about compression."
   }
 ]

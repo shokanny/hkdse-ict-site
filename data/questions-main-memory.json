@@ -63,6 +63,61 @@
     ],
     "answer": "Installing more RAM",
     "explanation": "Adding RAM reduces swapping to disk and allows more applications to run smoothly at the same time."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Which type of memory is volatile and holds data currently being processed by the CPU?",
+    "options": ["ROM", "RAM", "SSD", "Hard disk"],
+    "answer": "RAM",
+    "explanation": "RAM temporarily stores active programs and data but is cleared when power is off."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which component has the fastest data access speed?",
+    "options": ["CPU registers", "Cache memory", "RAM", "SSD"],
+    "answer": "CPU registers",
+    "explanation": "Registers are inside the CPU and are faster than cache, RAM, or secondary storage."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "What is the main purpose of cache memory in a CPU?",
+    "options": [
+      "To store the operating system",
+      "To keep frequently used data close to the CPU for quick access",
+      "To provide backup power during outages",
+      "To increase permanent storage capacity"
+    ],
+    "answer": "To keep frequently used data close to the CPU for quick access",
+    "explanation": "Cache reduces access time by storing recently or frequently used instructions and data."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "What does dual-channel refer to in RAM configuration?",
+    "options": [
+      "Using two different brands of RAM",
+      "Using RAM with two different speeds",
+      "Using two RAM modules to increase data transfer rate",
+      "Using both DDR4 and DDR3 together"
+    ],
+    "answer": "Using two RAM modules to increase data transfer rate",
+    "explanation": "Dual-channel mode allows memory to transfer data on two channels simultaneously, boosting throughput."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which task benefits most from upgrading RAM from 4 GB to 16 GB?",
+    "options": [
+      "Browsing a single website",
+      "Watching one online video",
+      "Running multiple virtual machines simultaneously",
+      "Playing a short audio file"
+    ],
+    "answer": "Running multiple virtual machines simultaneously",
+    "explanation": "Memory-intensive workloads like several VMs rely on ample RAM to avoid slow disk swapping."
   }
 ]
 

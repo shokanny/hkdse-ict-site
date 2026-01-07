@@ -63,5 +63,70 @@
     ],
     "answer": "Distributed processing system",
     "explanation": "A system with multiple thin clients connected to a central server distributing tasks is a distributed processing system."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Which of the following is NOT a typical function of an operating system?",
+    "options": [
+      "Memory management",
+      "Process scheduling",
+      "Compiling source code into executable programs",
+      "Input/output device management"
+    ],
+    "answer": "Compiling source code into executable programs",
+    "explanation": "Compiling is handled by a compiler application, while the OS manages hardware resources and scheduling."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Mary runs several virtual machines for testing on her laptop. Which hardware upgrade would most improve performance?",
+    "options": [
+      "Replacing the SSD with a larger HDD",
+      "Adding more RAM",
+      "Installing a faster optical drive",
+      "Upgrading the monitor resolution"
+    ],
+    "answer": "Adding more RAM",
+    "explanation": "Virtual machines consume a lot of memory; increasing RAM reduces swapping and speeds up each VM."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Why are e-book readers often preferred over tablets for long reading sessions? (1) Lower power consumption (2) Lighter weight (3) Higher computational power",
+    "options": [
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2), and (3)"
+    ],
+    "answer": "(1) and (2) only",
+    "explanation": "E-book readers focus on battery life and portability; they do not outperform tablets in processing power."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "What is the main role of a device driver?",
+    "options": [
+      "To compile applications",
+      "To connect the OS with a specific hardware device",
+      "To increase internet bandwidth",
+      "To perform data backups automatically"
+    ],
+    "answer": "To connect the OS with a specific hardware device",
+    "explanation": "Drivers translate OS commands into device-specific actions so peripherals work correctly."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "Which storage technologies support random access?",
+    "options": [
+      "Magnetic tape only",
+      "Solid-state drive (SSD) only",
+      "DVD-RW only",
+      "Both SSD and DVD-RW"
+    ],
+    "answer": "Both SSD and DVD-RW",
+    "explanation": "SSDs and optical discs allow direct access to any block, while magnetic tape is sequential."
   }
 ]

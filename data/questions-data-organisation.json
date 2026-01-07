@@ -26,5 +26,80 @@
     "question": "What is a record in database terminology?",
     "answer": "A collection of related fields",
     "explanation": "A record (or row) is a complete set of information about one entity, containing multiple fields."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "A library database table BOOK has fields: ISBN, Title, Author, PublicationYear. Which field is most suitable as the primary key?",
+    "options": ["Title", "Author", "ISBN", "PublicationYear"],
+    "answer": "ISBN",
+    "explanation": "ISBN values are unique for each book, making them ideal identifiers."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Why is it better to store a person's birth date rather than their age in a database?",
+    "options": [
+      "Birth date uses less storage space",
+      "Age is more accurate for calculations",
+      "Birth date remains constant while age changes",
+      "Age is required for indexing"
+    ],
+    "answer": "Birth date remains constant while age changes",
+    "explanation": "Storing birth date avoids constant updates and allows age to be calculated at any time."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "What is the purpose of a foreign key in data organisation?",
+    "options": [
+      "To speed up report printing",
+      "To enforce referential integrity between related tables",
+      "To encrypt sensitive data",
+      "To increase file compression"
+    ],
+    "answer": "To enforce referential integrity between related tables",
+    "explanation": "Foreign keys ensure a value in one table matches a primary key in another, keeping relationships valid."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Which data model organises data into tables of rows and columns linked by keys?",
+    "options": ["Hierarchical model", "Network model", "Relational model", "Flat file"],
+    "answer": "Relational model",
+    "explanation": "Relational databases store data in related tables, reducing duplication and improving consistency."
+  },
+  {
+    "id": 8,
+    "type": "short",
+    "question": "What is a primary key?",
+    "answer": "A field whose values uniquely identify each record in a table",
+    "explanation": "Primary keys prevent duplicate records and provide a reliable way to link tables."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Which SQL statement lists all products in the \"Beverages\" category sorted by price from highest to lowest?",
+    "options": [
+      "SELECT * FROM PRODUCT WHERE Category=\"Beverages\" ORDER BY Price",
+      "SELECT * FROM PRODUCT WHERE Category=\"Beverages\" ORDER BY Price DESC",
+      "LIST * FROM PRODUCT WHERE Category=\"Beverages\" BY Price HIGH",
+      "SELECT ALL FROM PRODUCT FOR Category=\"Beverages\" SORT BY Price"
+    ],
+    "answer": "SELECT * FROM PRODUCT WHERE Category=\"Beverages\" ORDER BY Price DESC",
+    "explanation": "ORDER BY Price DESC sorts the beverage rows from highest to lowest price."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "What is the role of the WHERE clause in an SQL SELECT statement?",
+    "options": [
+      "To specify which columns to display",
+      "To define the sort order",
+      "To specify conditions for selecting records",
+      "To group records based on field values"
+    ],
+    "answer": "To specify conditions for selecting records",
+    "explanation": "WHERE filters rows so only records matching the condition are returned."
   }
 ]

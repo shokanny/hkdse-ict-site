@@ -63,5 +63,64 @@
     ],
     "answer": "(1) and (2) only",
     "explanation": "It is a multi-user system (many members) and real-time system (immediate database update). It is not batch processing."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A weather station collects data every hour and processes it at midnight to generate a daily report. Which processing mode is used?",
+    "options": [
+      "Real-time processing",
+      "Batch processing",
+      "Interactive processing",
+      "Sequential processing"
+    ],
+    "answer": "Batch processing",
+    "explanation": "Data is accumulated and processed together at a scheduled time."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "A smart thermostat adjusts air conditioning immediately when indoor temperature changes. Which processing mode is essential?",
+    "options": [
+      "Batch processing",
+      "Offline processing",
+      "Real-time processing",
+      "Deferred processing"
+    ],
+    "answer": "Real-time processing",
+    "explanation": "Immediate response is required to maintain comfortable temperature."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Online banking updates account balances instantly after each transfer. Which mode best describes this?",
+    "options": [
+      "Batch processing",
+      "Real-time processing",
+      "Interactive but offline processing",
+      "Sequential tape processing"
+    ],
+    "answer": "Real-time processing",
+    "explanation": "Balances must be accurate immediately to avoid overdrafts or double spending."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Why do organisations choose batch processing for payroll each month?",
+    "options": [
+      "It guarantees zero errors",
+      "It allows large volumes to be processed together at a scheduled off-peak time",
+      "It requires the most expensive hardware",
+      "It provides instant updates after every transaction"
+    ],
+    "answer": "It allows large volumes to be processed together at a scheduled off-peak time",
+    "explanation": "Batch runs handle many records efficiently when real-time updates are unnecessary."
+  },
+  {
+    "id": 10,
+    "type": "short",
+    "question": "What is distributed processing?",
+    "answer": "Splitting processing tasks across multiple connected computers or servers",
+    "explanation": "Distributed systems share workload among nodes to improve speed, scalability, or reliability."
   }
 ]

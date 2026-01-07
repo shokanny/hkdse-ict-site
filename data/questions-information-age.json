@@ -67,79 +67,66 @@
   {
     "id": 6,
     "type": "mc",
-    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
+    "question": "What is a major ethical concern in the Information Age?",
     "options": [
-      "An increase in the cost of long-distance communication.",
-      "More opportunities for online learning and self-education.",
-      "A decrease in the need for data storage capacity.",
-      "The standardization of all global languages."
+      "The high cost of computer hardware.",
+      "The protection of intellectual property and copyright.",
+      "The speed of 4G mobile networks.",
+      "The complexity of using word processing software."
     ],
-    "answer": "More opportunities for online learning and self-education.",
-    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
-  },
-  {
-    "id": 6,
-    "type": "mc",
-    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
-    "options": [
-      "An increase in the cost of long-distance communication.",
-      "More opportunities for online learning and self-education.",
-      "A decrease in the need for data storage capacity.",
-      "The standardization of all global languages."
-    ],
-    "answer": "More opportunities for online learning and self-education.",
-    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
+    "answer": "The protection of intellectual property and copyright.",
+    "explanation": "Digital content is easy to copy and share, so respecting copyright and intellectual property is a major ethical concern."
   },
   {
     "id": 7,
     "type": "mc",
-    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
+    "question": "The project by the US Government to explore 'big data' is an example of:",
     "options": [
-      "An increase in the cost of long-distance communication.",
-      "More opportunities for online learning and self-education.",
-      "A decrease in the need for data storage capacity.",
-      "The standardization of all global languages."
+      "Using small, manageable datasets for analysis.",
+      "The challenge and opportunity of processing huge volumes of data.",
+      "Reducing the importance of database management systems.",
+      "Storing all government data on paper for security."
     ],
-    "answer": "More opportunities for online learning and self-education.",
-    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
+    "answer": "The challenge and opportunity of processing huge volumes of data.",
+    "explanation": "Big data initiatives demonstrate both the potential insights and the processing challenges posed by massive datasets."
   },
   {
     "id": 8,
     "type": "mc",
-    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
+    "question": "Which of the following statements about robots in the Information Age is correct? (1) They can perform repetitive tasks accurately. (2) They can replace human judgment in all scenarios. (3) They can take on jobs that are hazardous to humans.",
     "options": [
-      "An increase in the cost of long-distance communication.",
-      "More opportunities for online learning and self-education.",
-      "A decrease in the need for data storage capacity.",
-      "The standardization of all global languages."
+      "(1) and (2) only",
+      "(1) and (3) only",
+      "(2) and (3) only",
+      "(1), (2) and (3)"
     ],
-    "answer": "More opportunities for online learning and self-education.",
-    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
+    "answer": "(1) and (3) only",
+    "explanation": "Robots are strong at repetitive and hazardous tasks, but they cannot replace human judgment in all situations."
   },
   {
     "id": 9,
     "type": "mc",
-    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
+    "question": "What does the shift to a \"knowledge-based society\" emphasize?",
     "options": [
-      "An increase in the cost of long-distance communication.",
-      "More opportunities for online learning and self-education.",
-      "A decrease in the need for data storage capacity.",
-      "The standardization of all global languages."
+      "The value of physical manufacturing over information.",
+      "The importance of creating and using information effectively.",
+      "Relying solely on traditional libraries for research.",
+      "Reducing the role of technology in daily life."
     ],
-    "answer": "More opportunities for online learning and self-education.",
-    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
+    "answer": "The importance of creating and using information effectively.",
+    "explanation": "A knowledge-based society focuses on how information is created, shared, and applied to drive value."
   },
   {
     "id": 10,
     "type": "mc",
-    "question": "Which of the following is a direct consequence of the widespread use of the Internet in the Information Age?",
+    "question": "The digitization of a library's archive primarily helps to:",
     "options": [
-      "An increase in the cost of long-distance communication.",
-      "More opportunities for online learning and self-education.",
-      "A decrease in the need for data storage capacity.",
-      "The standardization of all global languages."
+      "Guarantee the copyright of all materials.",
+      "Destroy the original documents to save space.",
+      "Make the content more widely accessible.",
+      "Increase the borrowing fees for members."
     ],
-    "answer": "More opportunities for online learning and self-education.",
-    "explanation": "The Internet has revolutionized education, providing vast resources for online courses and self-learning."
+    "answer": "Make the content more widely accessible.",
+    "explanation": "Digitized archives can be shared online, allowing far more people to access the materials."
   }
 ]

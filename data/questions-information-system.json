@@ -26,5 +26,85 @@
     "question": "Name one type of information system used in organizations.",
     "answer": "Management Information System",
     "explanation": "Common types include MIS (Management Information System), DSS (Decision Support System), TPS (Transaction Processing System), and ESS (Executive Support System)."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which component of an information system defines rules for how data is entered, processed, and approved?",
+    "options": ["People", "Procedures", "Software", "Hardware"],
+    "answer": "Procedures",
+    "explanation": "Procedures cover the policies and rules that guide how people use the system."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Which type of information system handles routine day-to-day transactions such as supermarket checkout scanning?",
+    "options": [
+      "Executive Support System (ESS)",
+      "Transaction Processing System (TPS)",
+      "Decision Support System (DSS)",
+      "Geographic Information System (GIS)"
+    ],
+    "answer": "Transaction Processing System (TPS)",
+    "explanation": "TPS records repetitive, high-volume transactions reliably and quickly."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "A manager needs regular summary reports and dashboards to track sales performance. Which system is most appropriate?",
+    "options": [
+      "Transaction Processing System (TPS)",
+      "Management Information System (MIS)",
+      "Batch processing system",
+      "Standalone desktop database"
+    ],
+    "answer": "Management Information System (MIS)",
+    "explanation": "MIS provides summarized, periodic information to support tactical decisions."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "What is the primary goal of an information system in an organization?",
+    "options": [
+      "To store as much data as possible",
+      "To replace all staff with automation",
+      "To support decision-making and operational control",
+      "To eliminate the need for procedures"
+    ],
+    "answer": "To support decision-making and operational control",
+    "explanation": "Information systems integrate data, people, and procedures to deliver information that improves decisions and operations."
+  },
+  {
+    "id": 8,
+    "type": "short",
+    "question": "Name two core components of an information system besides hardware and software.",
+    "answer": "Data and procedures",
+    "explanation": "Information systems combine hardware, software, data, procedures, and people."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Which statement best describes a knowledge-based society in the Information Age?",
+    "options": [
+      "Economic growth is driven mainly by physical manufacturing",
+      "Creating and using information effectively is central to growth",
+      "Access to information becomes more expensive for the public",
+      "Technology plays a smaller role in daily life"
+    ],
+    "answer": "Creating and using information effectively is central to growth",
+    "explanation": "Knowledge-based societies rely on producing, sharing, and applying information for economic and social progress."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "When planning a new management information system, which item should be considered first?",
+    "options": [
+      "The cost of the hardware",
+      "The programming languages to be used",
+      "The purpose and objectives of the system",
+      "The brand of the database software"
+    ],
+    "answer": "The purpose and objectives of the system",
+    "explanation": "Clear objectives guide all later choices about technology, data, and design."
   }
 ]

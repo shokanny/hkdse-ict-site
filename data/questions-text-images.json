@@ -26,5 +26,65 @@
     "question": "What does RGB stand for in image representation?",
     "answer": "Red Green Blue",
     "explanation": "RGB (Red, Green, Blue) is a color model where colors are created by combining different intensities of red, green, and blue light."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Which of the following file formats is primarily used for vector graphics?",
+    "options": ["JPG", "PNG", "SVG", "BMP"],
+    "answer": "SVG",
+    "explanation": "SVG is a vector format that scales without losing quality, unlike raster formats."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "A photographer wants to edit high-quality images while preserving all original data. Which format should be used during editing?",
+    "options": ["JPG", "GIF", "RAW", "PNG"],
+    "answer": "RAW",
+    "explanation": "RAW keeps all sensor data with no lossy compression, ideal for professional editing."
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "question": "Which statements about audio file formats are correct? (1) MP3 uses lossy compression (2) WAV files are typically uncompressed (3) MIDI files store actual audio recordings",
+    "options": ["(1) and (2) only", "(1) and (3) only", "(2) and (3) only", "(1), (2) and (3)"],
+    "answer": "(1) and (2) only",
+    "explanation": "MP3 is lossy and WAV is usually uncompressed; MIDI stores instructions, not recorded audio."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Why might a web designer choose PNG over JPG for certain images? (1) PNG supports transparency (2) PNG uses lossless compression (3) PNG files are always smaller than JPG",
+    "options": ["(1) and (2) only", "(1) and (3) only", "(2) and (3) only", "(1), (2) and (3)"],
+    "answer": "(1) and (2) only",
+    "explanation": "PNG offers transparency and lossless quality; file size can be larger than JPG depending on content."
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "question": "Which video format is most suitable for easy streaming over the internet?",
+    "options": ["AVI", "MP4", "RAW", "TIFF"],
+    "answer": "MP4",
+    "explanation": "MP4 balances compression and quality and is widely supported by browsers and devices."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Which factor most affects the file size of a digital video?",
+    "options": [
+      "Resolution",
+      "Frame rate",
+      "Compression method",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "Higher resolution, frame rate, or less efficient compression each increase video size."
+  },
+  {
+    "id": 10,
+    "type": "short",
+    "question": "What is colour depth?",
+    "answer": "The number of bits used to represent the colour of a single pixel",
+    "explanation": "Greater colour depth allows more distinct colours to be displayed in an image."
   }
 ]

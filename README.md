@@ -86,16 +86,7 @@ Find the section for A1 or A2, and add:
 - **Don't commit it to GitHub** - add `ai-helper.js` to `.gitignore`
 - AI is optional - the site works perfectly without it
 
-## 🎯 Topics Included
 
-### A1 - Information Processing (1)
-- ✅ 1.1 Information System
-- ✅ 3.1 Number System and Representation
-
-### A2 - Information Processing (2)
-- ✅ 2.1 Data Organisation
-- ✅ 2.2 Database
-- ✅ 3.2 Text and Images
 
 ## ⚠️ Potential Difficulties & Solutions
 

@@ -137,23 +137,8 @@ function checkAnswer(userAnswer) {
   const userAns = normalise(userAnswer);
   const correctAns = normalise(q.answer);
   
-  // For MC questions, also check if they typed the option letter or full text
+  // Simple direct comparison: does normalized user answer match normalized correct answer?
   let isCorrect = userAns === correctAns;
-  
-  if (q.type === "mc" && q.options) {
-    // Check if they typed the letter (A, B, C, D)
-    const optionIndex = q.options.findIndex(opt => normalise(opt) === correctAns);
-    if (optionIndex >= 0) {
-      const optionLetter = String.fromCharCode(65 + optionIndex).toLowerCase();
-      if (userAns === optionLetter || userAns === optionLetter.toUpperCase()) {
-        isCorrect = true;
-      }
-    }
-    // Check if they typed the full option text
-    if (!isCorrect) {
-      isCorrect = q.options.some(opt => normalise(opt) === userAns);
-    }
-  }
 
   shortInput.disabled = true;
   submitBtn.style.display = "none";

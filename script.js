@@ -113,6 +113,26 @@ function checkAnswer(userAnswer) {
   const submitBtn = document.getElementById("submit-btn");
   const shortInput = document.getElementById("short-answer");
 
+  // Allow different input shapes for MC questions:
+  // - If userAnswer is a letter (A/B/C) or an index ("0"/"1"), map it to the option text.
+  // This keeps answer comparison consistent (always compare option text when possible).
+  let originalUserAnswer = userAnswer;
+  if (q.type === "mc" && q.options) {
+    const s = String(userAnswer).trim();
+    if (/^[a-zA-Z]$/.test(s)) {
+      // letter -> index
+      const idx = s.toUpperCase().charCodeAt(0) - 65;
+      if (q.options[idx] !== undefined) {
+        userAnswer = q.options[idx];
+      }
+    } else if (/^\d+$/.test(s)) {
+      const idx = parseInt(s, 10);
+      if (q.options[idx] !== undefined) {
+        userAnswer = q.options[idx];
+      }
+    }
+  }
+
   // Normalize answer comparison
   const userAns = normalise(userAnswer);
   const correctAns = normalise(q.answer);
@@ -284,7 +304,10 @@ document.getElementById("submit-btn")?.addEventListener("click", () => {
       return;
     }
     warning.style.display = "none";
-    checkAnswer(selected.value);
+    // Pass the chosen option text to checkAnswer to avoid index/letter mismatches
+    const idx = Number(selected.value);
+    const chosenText = (q.options && q.options[idx]) ? q.options[idx] : selected.value;
+    checkAnswer(chosenText);
   } else {
     if (shortVal === "") {
       warning.style.display = "inline";

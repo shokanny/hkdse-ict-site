@@ -21,7 +21,10 @@
       <p class="subtext" style="margin-top:-6px;">Type your answer or choose an option letter. Each question reveals an explanation to reinforce the concept.</p>
       <div id="options"></div>
       <input id="short-answer" type="text" placeholder="Type your answer here..." />
-      <button id="submit-btn">Submit Answer</button>
+      <div style="display:flex; gap:12px; align-items:center; margin-top:12px;">
+        <button id="submit-btn">Submit Answer</button>
+        <span id="warning-msg" style="color:#b91c1c; display:none; font-weight:600;">Please select an option or type an answer.</span>
+      </div>
       <p id="feedback"></p>
       <button id="next-btn" style="display:none;">Next Question →</button>
     </div>

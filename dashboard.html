@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard - HKDSE ICT Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .dashboard-header {
+      background: linear-gradient(135deg, #1d4ed8, #2563eb, #38bdf8);
+      color: white;
+      padding: 24px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dashboard-header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .user-info {
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .user-info .email {
+      opacity: 0.9;
+      margin-bottom: 4px;
+    }
+
+    .logout-btn {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 200ms ease;
+    }
+
+    .logout-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .dashboard-container {
+      max-width: 1200px;
+      margin: 32px auto;
+      padding: 0 18px;
+    }
+
+    .progress-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .progress-card {
+      background: rgba(255, 255, 255, 0.98);
+      padding: 24px;
+      border-radius: 14px;
+      box-shadow: 0 12px 40px rgba(15, 23, 42, 0.12);
+      border: 1px solid #e5e7eb;
+      text-align: center;
+    }
+
+    .progress-card h3 {
+      margin: 0 0 12px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .progress-value {
+      font-size: 32px;
+      font-weight: 700;
+      color: #2563eb;
+      margin: 0;
+    }
+
+    .progress-value.percentage {
+      font-size: 28px;
+    }
+
+    .circular-progress {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+      position: relative;
+      background: conic-gradient(#2563eb var(--percentage, 0%), #e5e7eb var(--percentage, 0%));
+    }
+
+    .circular-progress-inner {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .circular-progress-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: #2563eb;
+    }
+
+    .circular-progress-label {
+      font-size: 11px;
+      color: #6b7280;
+      margin-top: 4px;
+    }
+
+    .topics-section h2 {
+      margin: 0 0 20px;
+      font-size: 20px;
+      color: #0f172a;
+    }
+
+    .topics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .topic-card {
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 14px;
+      box-shadow: 0 12px 40px rgba(15, 23, 42, 0.12);
+      border: 1px solid #e5e7eb;
+      overflow: hidden;
+      transition: all 200ms ease;
+    }
+
+    .topic-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.15);
+    }
+
+    .topic-card-header {
+      padding: 16px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .topic-core {
+      font-size: 11px;
+      font-weight: 600;
+      color: #2563eb;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .topic-name {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .topic-card-body {
+      padding: 16px;
+    }
+
+    .topic-status {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    .topic-status-text {
+      font-size: 13px;
+      color: #6b7280;
+    }
+
+    .topic-score {
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .topic-progress-bar {
+      width: 100%;
+      height: 6px;
+      background: #e5e7eb;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .topic-progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #2563eb, #38bdf8);
+      border-radius: 3px;
+      transition: width 300ms ease;
+    }
+
+    .topic-attempts {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-bottom: 12px;
+    }
+
+    .practice-btn {
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 200ms ease;
+    }
+
+    .practice-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    .not-attempted {
+      background: #f3f4f6;
+      color: #6b7280;
+    }
+
+    .core-section {
+      margin-bottom: 32px;
+    }
+
+    .core-title {
+      display: flex;
+      align-items: center;
+      margin: 0 0 16px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .core-label {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      border-radius: 6px;
+      margin-right: 12px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .empty-state {
+      background: rgba(255, 255, 255, 0.98);
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 40px 20px;
+      text-align: center;
+      color: #6b7280;
+    }
+
+    .empty-state p {
+      margin: 0 0 16px;
+    }
+
+    .back-to-home-btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 20px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 200ms ease;
+    }
+
+    .back-to-home-btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard-header">
+    <div>
+      <h1>📊 Student Dashboard</h1>
+    </div>
+    <div class="user-info">
+      <div class="email" id="userEmail"></div>
+      <button class="logout-btn" onclick="handleLogout()">Logout</button>
+    </div>
+  </div>
+
+  <div class="dashboard-container">
+    <!-- Overall Progress Summary -->
+    <div class="progress-summary">
+      <div class="progress-card">
+        <h3>Overall Progress</h3>
+        <div class="circular-progress" id="overallCircle">
+          <div class="circular-progress-inner">
+            <div class="circular-progress-value" id="overallPercentage">0%</div>
+            <div class="circular-progress-label">average</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <h3>Topics Completed</h3>
+        <p class="progress-value" id="topicsCompleted">0</p>
+        <p style="margin: 4px 0 0; color: #6b7280; font-size: 13px;">
+          of <span id="topicsTotal">21</span> topics
+        </p>
+      </div>
+
+      <div class="progress-card">
+        <h3>Current Average</h3>
+        <p class="progress-value percentage" id="averageScore">0%</p>
+        <p style="margin: 4px 0 0; color: #6b7280; font-size: 13px;">
+          across <span id="attemptedCount">0</span> topics
+        </p>
+      </div>
+    </div>
+
+    <!-- Core A Topics -->
+    <div class="core-section">
+      <h2 class="core-title">
+        <span class="core-label">A</span>
+        Core A – Data Processing
+      </h2>
+      <div class="topics-grid" id="coreATopics"></div>
+    </div>
+
+    <!-- Core B Topics -->
+    <div class="core-section">
+      <h2 class="core-title">
+        <span class="core-label">B</span>
+        Core B – Computer System
+      </h2>
+      <div class="topics-grid" id="coreBTopics"></div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script>
+    // Check if user is logged in
+    if (!isLoggedIn()) {
+      window.location.href = "login.html";
+    }
+
+    const user = getCurrentUser();
+    document.getElementById("userEmail").textContent = user.email;
+
+    // Load and display progress
+    function renderDashboard() {
+      const topics = getAllTopics();
+      const progress = getProgress();
+      const overall = getOverallProgress();
+
+      // Update overall progress
+      const percentage = overall.overallPercentage;
+      document.getElementById("overallPercentage").textContent = percentage + "%";
+      document.getElementById("overallCircle").style.setProperty("--percentage", (percentage * 3.6) + "deg");
+      document.getElementById("topicsCompleted").textContent = overall.topicsAttempted;
+      document.getElementById("topicsTotal").textContent = overall.topicsTotal;
+      document.getElementById("averageScore").textContent = percentage + "%";
+      document.getElementById("attemptedCount").textContent = overall.topicsAttempted;
+
+      // Group topics by core
+      const coreATopics = topics.filter(t => t.core === "A");
+      const coreBTopics = topics.filter(t => t.core === "B");
+
+      // Render Core A topics
+      const coreAContainer = document.getElementById("coreATopics");
+      coreAContainer.innerHTML = coreATopics.map(topic => createTopicCard(topic, progress)).join("");
+
+      // Render Core B topics
+      const coreBContainer = document.getElementById("coreBTopics");
+      coreBContainer.innerHTML = coreBTopics.map(topic => createTopicCard(topic, progress)).join("");
+    }
+
+    function createTopicCard(topic, progress) {
+      const topicProgress = progress?.topics?.[topic.id];
+      const attempted = !!topicProgress;
+      const score = topicProgress?.score || 0;
+      const total = topicProgress?.total || 0;
+      const percentage = topicProgress?.percentage || 0;
+      const attempts = topicProgress?.attempts || 0;
+
+      return `
+        <div class="topic-card">
+          <div class="topic-card-header">
+            <div class="topic-core">${topic.core}</div>
+            <p class="topic-name">${topic.name}</p>
+          </div>
+          <div class="topic-card-body">
+            ${attempted ? `
+              <div class="topic-status">
+                <span class="topic-status-text">Score</span>
+                <span class="topic-score">${score}/${total}</span>
+              </div>
+              <div class="topic-progress-bar">
+                <div class="topic-progress-fill" style="width: ${percentage}%"></div>
+              </div>
+              <div class="topic-attempts">
+                📝 ${attempts} attempt${attempts !== 1 ? "s" : ""}
+              </div>
+            ` : `
+              <div class="topic-status">
+                <span class="topic-status-text">Not attempted</span>
+              </div>
+              <div style="height: 6px; background: #e5e7eb; border-radius: 3px; margin-bottom: 12px;"></div>
+              <div class="topic-attempts">
+                📝 0 attempts
+              </div>
+            `}
+            <button class="practice-btn ${!attempted ? 'not-attempted' : ''}" onclick="startTopic('${topic.id}')">
+              ${attempted ? "Practice Again" : "Start Practice"}
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function handleLogout() {
+      if (confirm("Are you sure you want to logout?")) {
+        logoutUser();
+        window.location.href = "login.html";
+      }
+    }
+
+    function startTopic(topicId) {
+      window.location.href = `quiz.html?topic=${topicId}`;
+    }
+
+    // Initial render
+    renderDashboard();
+  </script>
+</body>
+</html>

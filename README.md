@@ -1,29 +1,83 @@
 # HKDSE ICT Practice Website
 
-A simple, copy-paste ready website for HKDSE ICT Core A practice (A1 & A2 topics).
+A simple, copy-paste ready website for HKDSE ICT Core A practice with student authentication and progress tracking.
 
 ## 📁 File Structure
 
 ```
 hkdse-ict-site/
-├── index.html              # Main page with topic selection
-├── quiz.html               # Quiz page
-├── script.js               # Quiz logic
-├── style.css               # Styling
-├── ai-helper.js            # AI integration (optional)
-├── data/                   # Question files (JSON)
+├── index.html                  # Main page with topic selection
+├── login.html                  # Student login page
+├── dashboard.html              # Student progress dashboard
+├── quiz.html                   # Quiz page
+├── script.js                   # Quiz logic
+├── style.css                   # Styling
+├── auth.js                     # Authentication & progress system
+├── ai-helper.js                # AI integration (optional)
+├── config/
+│   └── schools.json            # School configuration (reference)
+├── data/                       # Question files (JSON)
 │   ├── questions-number-system.json
 │   ├── questions-information-system.json
-│   ├── questions-data-organisation.json
-│   ├── questions-database.json
-│   └── questions-text-images.json
-└── README.md               # This file
+│   └── ... (more question files)
+├── AUTH_GUIDE.md               # Complete authentication documentation
+├── ADD_SCHOOLS.md              # Guide for adding new schools
+└── README.md                   # This file
 ```
+
+## ✨ New Features
+
+### 🔐 Student Authentication
+- Email-based login with school validation
+- Only IKTMC students with `@learn.iktmc.edu.hk` emails can access
+- Scalable to support multiple schools
+
+### 📊 Student Dashboard
+- View overall progress across all topics
+- See individual topic scores and attempts
+- Track improvement over multiple attempts
+- Beautiful progress visualizations
+
+### 💾 Automatic Progress Tracking
+- Quiz scores automatically saved
+- Progress preserved between sessions
+- Analytics on attempts and improvement
 
 ## 🚀 Quick Start
 
-1. **Open the website**: Just open `index.html` in your browser (double-click it)
-2. **No installation needed**: This is pure HTML/CSS/JavaScript - works offline!
+### For Students
+1. **Open the website**: Go to `index.html`
+2. **Click Login**: Enter your IKTMC email and password
+3. **View Dashboard**: See your progress and topics
+4. **Take Quizzes**: Practice topics and track your scores
+
+### For Admins
+1. **No setup needed**: Open `index.html` and test
+2. **To add schools**: See [ADD_SCHOOLS.md](ADD_SCHOOLS.md)
+3. **For details**: See [AUTH_GUIDE.md](AUTH_GUIDE.md)
+
+## 🔐 Authentication System
+
+### How It Works
+- **Login Page** (`login.html`): Students enter email and password
+- **Email Validation**: Only whitelisted email domains can login
+- **Progress Tracking**: Automatically saves quiz results
+- **Dashboard** (`dashboard.html`): View all progress
+
+### Adding Schools
+
+Edit `auth.js` and add to the `SCHOOLS_CONFIG` array:
+
+```javascript
+{
+  id: "kinggeorgev",
+  name: "King George V School",
+  emailDomain: "@learn.kgv.edu.hk",
+  enabled: true
+}
+```
+
+See [ADD_SCHOOLS.md](ADD_SCHOOLS.md) for complete examples.
 
 ## ✏️ How to Add Questions
 

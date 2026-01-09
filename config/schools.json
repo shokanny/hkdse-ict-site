@@ -1,0 +1,10 @@
+{
+  "schools": [
+    {
+      "id": "iktmc",
+      "name": "IKTMC",
+      "emailDomain": "@learn.iktmc.edu.hk",
+      "enabled": true
+    }
+  ]
+}
